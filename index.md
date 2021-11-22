@@ -1,6 +1,7 @@
 <body>
 
-<div class="sidenav">
+<div class="topnav">
+<a class="active" href="#home">Home</a>
   <a href="#">Software Design</a>
   <a href="#">Data Structures and Algorithms</a>
   <a href="#">Database Management</a>
