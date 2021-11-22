@@ -7,6 +7,7 @@
   <a href="#">Contact</a>
 </div>
 
+<<<<<<< HEAD
 <div class="main">
   <h2>Main Content</h2>
   <p>Intro</p>
