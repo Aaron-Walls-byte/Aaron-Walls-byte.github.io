@@ -11,6 +11,4 @@
   <h2>Main Content</h2>
   <p>Intro</p>
 </div>
-
-</script>
 </body>
