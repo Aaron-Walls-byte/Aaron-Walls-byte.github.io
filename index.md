@@ -1,9 +1,9 @@
 <body>
 
 <div class="sidenav">
-  <a href="#">About</a>
-  <a href="#">Services</a>
-  <a href="#">Clients</a>
+  <a href="#">Software Design</a>
+  <a href="#">Data Structures and Algorithms</a>
+  <a href="#">Database Management</a>
   <a href="#">Contact</a>
 </div>
 
