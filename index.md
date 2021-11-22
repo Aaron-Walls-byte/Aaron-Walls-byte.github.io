@@ -1,11 +1,10 @@
 <body>
 
 <div class="topnav">
-<a class="active" href="#home">Contact</a>
-  <a href="#">Software Design</a>
-  <a href="#">Data Structures and Algorithms</a>
-  <a href="#">Database Management</a>
-  <a href="#">Contact</a>
+<a class="box" href="#">Contact</a>
+  <a class="underline" href="#">Software Design</a>
+  <a class="underline" href="#">Data Structures and Algorithms</a>
+  <a class="underline" href="#">Database Management</a>
 </div>
 
 <div class="main">
