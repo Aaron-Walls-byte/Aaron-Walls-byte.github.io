@@ -2,7 +2,6 @@
 ---
 
 @import "{{ site.theme }}";
-
 .sidenav {
   height: 100%;
   width: 0;
@@ -36,3 +35,9 @@
   font-size: 36px;
   margin-left: 50px;
 }
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
