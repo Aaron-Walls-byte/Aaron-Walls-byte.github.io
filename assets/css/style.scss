@@ -59,10 +59,12 @@ a.underline:after {
   transform-origin: bottom left;
 }
 .main {
-  margin-left: 15%;
+ 
 }
 .banner{
   background-image: url('../images/greenPC.jpg');
+  background-repeat: no-repeat;
+  background-size: auto;
 }
 
 
