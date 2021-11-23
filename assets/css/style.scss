@@ -74,6 +74,7 @@ a.underline:after {
     float: right;
     display: block;
   }
+  .main2{flex-wrap: wrap;}
 }
 @media screen and (max-width: 600px) {
   .topnav.responsive {position: relative;}
