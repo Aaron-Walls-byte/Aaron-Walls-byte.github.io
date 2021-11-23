@@ -2,7 +2,9 @@
 ---
 
 @import "{{ site.theme }}";
-
+header{
+  display: none;
+}
 .topnav {
   overflow: hidden;
   padding: 0;
@@ -12,10 +14,9 @@
 .container{
   width: 100%;
   max-width: none;
+
 }
 .topnav a:first-child {
-  border-radius: 15px;
-  border: 2px solid; 
   margin-right: 15%;
 }
 .topnav a {
@@ -25,31 +26,17 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
-  margin: .5% 0 .5% 0;
 }
 
-.underline a:after {
-  content:'';
-  position: absolute;
-  width: 100%;
-  transform: scaleX(0);
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+.topnav a:hover {
   background-color: #ddd;
   color: black;
 }
-.underline:hover:after {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
 
 .topnav a.active {
-  background-color: #c92828d4;
+  background-color: #04AA6D;
   color: white;
 }
 .main {
-  margin-left: 15%;
+  margin-left: 15%
 }
