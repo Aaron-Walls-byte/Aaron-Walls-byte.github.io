@@ -10,9 +10,10 @@
 <div class="main">
   <div class="banner">
 	<img src="./assets/images/greenPC.jpg" class="stretch" alt=""/>
+	<p class="bannerMessage">Intro</p>
   </div>
   
-  <p>Intro</p>
+
 </div>
 
 
