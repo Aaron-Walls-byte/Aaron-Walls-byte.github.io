@@ -63,10 +63,7 @@ a.underline:after {
 }
 .banner{
     width: 100%; 
-    height: 100%; 
-    position: fixed; 
-    left: 0px; 
-    top: 0px; 
+    height: 100%;  
     z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
 .stretch{
