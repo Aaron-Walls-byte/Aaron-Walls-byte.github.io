@@ -166,3 +166,9 @@ ul.Sigline { list-style-type: none; flex-direction: row; flex-wrap: wrap; align-
 ul li { list-style-image: none; }
 
 li { line-height: 1.4; font-size: 17px; }
+
+.Main2 { display: flex; flex-direction: row; flex-wrap: nowrap; align-content: space-around; justify-content: space-around; align-items: center; padding-left: 5vw; padding-right: 5vw; }
+
+.content-left { maring: 2%; }
+
+/*# sourceMappingURL=style.css.map */
