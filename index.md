@@ -8,7 +8,7 @@
 </div>
 
 <div class="main">
-  <h2>Main Content</h2>
+  <h2 class="banner">Main Content</h2>
   <p>Intro</p>
 </div>
 </body>
