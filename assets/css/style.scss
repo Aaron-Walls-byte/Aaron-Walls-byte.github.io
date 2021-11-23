@@ -19,6 +19,14 @@ header{
   display: flex;
   justify-content: Flex-end;
 }
+.topnav.responsive {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 a {
     color: #eaeaea;
     text-shadow: 0 0 5px #90a959;
