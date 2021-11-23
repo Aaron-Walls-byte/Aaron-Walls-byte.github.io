@@ -62,9 +62,15 @@ a.underline:after {
  
 }
 .banner{
-  background-image: url('../images/greenPC.jpg');
-  background-repeat: no-repeat;
-  background-size: auto;
+    width: 100%; 
+    height: 100%; 
+    position: fixed; 
+    left: 0px; 
+    top: 0px; 
+    z-index: -1; /* Ensure div tag stays behind content; -999 might work, too. */
 }
-
+.stretch{
+	width: 100%; 
+    height: 100%; 
+}
 

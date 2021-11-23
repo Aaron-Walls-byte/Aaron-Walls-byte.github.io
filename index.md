@@ -8,7 +8,9 @@
 </div>
 
 <div class="main">
-  <h2 class="banner">Main Content</h2>
+  <div class="banner">
+	<img src="./assets/images/greenPC.jpg" class="stretch" alt=""/>
+  </div>
   <p>Intro</p>
 </div>
 </body>
