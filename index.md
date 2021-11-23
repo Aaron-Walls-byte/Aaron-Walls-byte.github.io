@@ -2,7 +2,7 @@
 
 <div class="topnav" id="myTopnav">
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-    <i class="fa fa-bars"></i>
+    <i class="fa fa-bars fa-2x"></i>
   </a>
   <a class="underline" href="#">Software Design</a>
   <a class="underline" href="#">Data Structures and Algorithms</a>
