@@ -7,14 +7,19 @@ header{
 }
 .container{
   width: 100%;
+  padding: 0;
   max-width: none;
 
 }
 .topnav {
   overflow: hidden;
-  padding: 0;
-  margin: .5% 0 .5% 0;
+  margin: 0;
+  padding: .5% 0 .5% 0;
   background-color: #333;
+}
+a {
+    color: #eaeaea;
+    text-shadow: 0 0 5px #90a959;
 }
 .topnav a:first-child {
   margin-right: 15%;
@@ -28,10 +33,11 @@ header{
 }
 a.box{
   border-radius: 10px;
-  border: 2px solid greenyellow;
+  border: 2px solid #eaeaea;
 }
 a.box:hover {
   color: greenyellow;
+  border: 2px solid greenyellow;
 }
 a.underline {
   display: inline-block;
@@ -49,7 +55,10 @@ a.underline:after {
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }
-
+.underline:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
 .main {
   margin-left: 15%;
 }
