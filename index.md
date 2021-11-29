@@ -44,15 +44,6 @@
 </div>
 
 <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
   $(".readmore-link").click( function(e) {
   // record if our text is expanded
   var isExpanded =  $(e.target).hasClass("expand");
@@ -67,6 +58,17 @@ function myFunction() {
     $(e.target).addClass("expand");  
   } 
 });
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+
+
 </script>
 
 
