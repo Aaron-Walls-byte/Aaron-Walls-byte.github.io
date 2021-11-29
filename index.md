@@ -33,6 +33,13 @@
       <p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
      </p>
   </div>
+  <div class="Main3">
+	  <div class="readmore">
+		  <p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		 </p>
+		 <span class="readmore-link"></span>
+	  </div>
+  </div>
 </div>
 </div>
 
@@ -45,6 +52,22 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+</script>
+<script>
+  $(".readmore-link").click( function(e) {
+  // record if our text is expanded
+  var isExpanded =  $(e.target).hasClass("expand");
+  
+  //close all open paragraphs
+  $(".readmore.expand").removeClass("expand");
+  $(".readmore-link.expand").removeClass("expand");
+  
+  // if target wasn't expand, then expand it
+  if (!isExpanded){
+    $( e.target ).parent( ".readmore" ).addClass( "expand" );
+    $(e.target).addClass("expand");  
+  } 
+});
 </script>
 
 
