@@ -14,14 +14,15 @@
 </div>
 
 <div class="main">
-  <div class="banner">
-	<img src="./assets/images/greenPC.jpg" class="stretch" alt=""/>
-	<div class="bannerMessage">
-	Software Development
-	<ul class="Sigline">
-		<li>By Aaron J Walls</li>
-		<li>Nov 23, 2021</li>
-	</ul>
+  <div class="banner stripes">
+	<div class="colorbar">
+	  <div class="bannerMessage">
+		Software Development
+		<ul class="Sigline">
+			<li>By Aaron J Walls</li>
+			<li>Nov 23, 2021</li>
+		</ul>
+	  </div>
 	</div>
   </div>
   <div class="Main2">
