@@ -116,6 +116,10 @@ a.underline:after {
     min-height: 80vh;
 }
 */
+.right {
+  text-align: right;
+  width: 100%;
+}
 .banner.stripes {
     background-image: linear-gradient(to right,
 	#b03a19 0%, #893c24 12.5%, #842d78 12.5%, 
@@ -143,7 +147,7 @@ a.underline:after {
   left: 13%;
   margin-left: auto;
   margin-right: auto;
-  font-size: xxx-large;
+  font-size: 1rem;
 }
 .stack {
   display: grid;

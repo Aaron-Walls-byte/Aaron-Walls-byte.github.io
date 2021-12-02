@@ -164,7 +164,7 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
 
 .stretch { margin-left: auto; margin-right: auto; display: block; max-width: 100%; padding-top: 35vh; }
 
-.bannerMessage { z-index: 9; position: absolute; top: 20%; left: 13%; margin-left: auto; margin-right: auto; font-size: xxx-large; }
+.bannerMessage { z-index: 9; position: absolute; top: 20%; left: 13%; margin-left: auto; margin-right: auto; font-size: 1rem; display: flex; flex-direction: column; }
 
 .stack { display: grid; grid-template-columns: 1fr; }
 
