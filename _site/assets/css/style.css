@@ -157,17 +157,36 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
 
 .banner { width: 100%; margin-left: auto; margin-right: auto; background-color: #024f3f; position: relative; z-index: -1; }
 
-.banner.stripes { background-image: linear-gradient(to right, #304f56 0%, #304f56 12.5%, #1c3e43 12.5%, #1c3e43 25%, #304e29 25%, #304e29 37.5%, #4f561c 37.5%, #4f561c 50%, #625618 50%, #625618 62.5%, #613814 62.5%, #613814 75%, #5d2a41 75%, #5d2a41 87.5%, #4c2742 87.5%); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 80vh; }
+/* .banner.stripes { background-image: linear-gradient(to right, #304f56 0%, #304f56 12.5%,#1c3e43 12.5%,#1c3e43 25%,#304e29 25%, #304e29 37.5%,#4f561c 37.5%,#4f561c 50%,#625618 50%, #625618 62.5%,#613814 62.5%,#613814 75%,#5d2a41 75%, #5d2a41 87.5%,#4c2742 87.5%); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 80vh; } */
+.banner.stripes { background-image: linear-gradient(to right, #b03a19 0%, #893c24 12.5%, #842d78 12.5%, #6c3765 25%, #174db1 25%, #304d84 37.5%, #297ea1 37.5%, #286f8c 50%, #e5a836 50%, #cd9b3d 62.5%, #613814 62.5%, #613814 75%, #b2336c 75%, #9b3865 87.5%, #4c2742 87.5%); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 80vh; }
 
 .stretch { margin-left: auto; margin-right: auto; display: block; max-width: 100%; padding-top: 35vh; }
 
 .bannerMessage { z-index: 9; position: absolute; top: 20%; left: 13%; margin-left: auto; margin-right: auto; font-size: xxx-large; }
 
-ul.Sigline { list-style-type: none; flex-direction: row; flex-wrap: wrap; align-content: center; justify-content: space-evenly; align-items: flex-start; direction: rtl; display: contents; }
+.stack { display: grid; grid-template-columns: 1fr; }
 
-ul li { list-style-image: none; }
+.stack span { font-weight: bold; grid-row-start: 1; grid-column-start: 1; font-size: 4rem; --stack-height: calc(100% / var(--stacks) - 1px); --inverse-index: calc(calc(var(--stacks) - 1) - var(--index)); --clip-top: calc(var(--stack-height) * var(--index)); --clip-bottom: calc(var(--stack-height) * var(--inverse-index)); clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0); animation: stack 340ms cubic-bezier(0.46, 0.29, 0, 1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse; }
 
-li { line-height: 1.4; font-size: 17px; }
+.stack span:nth-child(odd) { --glitch-translate: 8px; }
+
+.stack span:nth-child(even) { --glitch-translate: -8px; }
+
+@keyframes stack { 0% { opacity: 0;
+    transform: translateX(-50%);
+    text-shadow: -2px 3px 0 red, 2px -3px 0 blue; }
+  60% { opacity: 0.5;
+    transform: translateX(50%); }
+  80% { transform: none;
+    opacity: 1;
+    text-shadow: 2px -3px 0 red, -2px 3px 0 blue; }
+  100% { text-shadow: none; } }
+
+@keyframes glitch { 0% { text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
+    transform: translate(var(--glitch-translate)); }
+  2% { text-shadow: 2px -3px 0 red, -2px 3px 0 blue; }
+  4%, 100% { text-shadow: none;
+    transform: none; } }
 
 .Main2 { display: flex; flex-direction: row; flex-wrap: nowrap; align-content: space-around; justify-content: space-around; align-items: center; padding-left: 5vw; padding-right: 5vw; }
 

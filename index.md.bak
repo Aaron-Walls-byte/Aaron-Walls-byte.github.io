@@ -16,13 +16,13 @@
 <div class="main">
   <div class="banner stripes">
 	<div class="colorbar">
-		<div class="bannerMessage">
+	  <div class="bannerMessage">
 		Software Development
 		<ul class="Sigline">
 			<li>By Aaron J Walls</li>
 			<li>Nov 23, 2021</li>
 		</ul>
-		</div>
+	  </div>
 	</div>
   </div>
   <div class="Main2">
