@@ -147,10 +147,11 @@ a.underline:after {
   left: 13%;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1rem;
+  font-size: 1.5rem;
   display: flex;
   flex-direction: column;
 }
+
 .stack {
   display: grid;
   grid-template-columns: 1fr;
@@ -202,6 +203,15 @@ a.underline:after {
   }
   4%, 100% {  text-shadow: none; transform: none; }
 }
+@media screen and (max-width: 600px) {
+  .bannerMessage{
+	  font-size: 1rem;
+  }
+  .stack span{
+	  font-size: 2rem;
+  }
+}
+
 .Main2 {
   display: flex;
   flex-direction: row;

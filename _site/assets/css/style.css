@@ -164,7 +164,7 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
 
 .stretch { margin-left: auto; margin-right: auto; display: block; max-width: 100%; padding-top: 35vh; }
 
-.bannerMessage { z-index: 9; position: absolute; top: 20%; left: 13%; margin-left: auto; margin-right: auto; font-size: 1rem; display: flex; flex-direction: column; }
+.bannerMessage { z-index: 9; position: absolute; top: 20%; left: 13%; margin-left: auto; margin-right: auto; font-size: 1.5rem; display: flex; flex-direction: column; }
 
 .stack { display: grid; grid-template-columns: 1fr; }
 
@@ -189,6 +189,8 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
   2% { text-shadow: 2px -3px 0 red, -2px 3px 0 blue; }
   4%, 100% { text-shadow: none;
     transform: none; } }
+
+@media screen and (max-width: 600px) { .bannerMessage { font-size: 1rem; } .stack span { font-size: 2rem; } }
 
 .Main2 { display: flex; flex-direction: row; flex-wrap: nowrap; align-content: space-around; justify-content: space-around; align-items: center; padding-left: 5vw; padding-right: 5vw; }
 
