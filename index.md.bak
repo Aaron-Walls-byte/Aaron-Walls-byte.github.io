@@ -17,11 +17,12 @@
   <div class="banner stripes">
 	<div class="colorbar">
 	  <div class="bannerMessage">
-		Software Development
-		<ul class="Sigline">
-			<li>By Aaron J Walls</li>
-			<li>Nov 23, 2021</li>
-		</ul>
+		Aaron J Walls
+		<div class="stack" style="--stacks 3;">
+			<span style="--index: 0;">STACK</span>
+			<span style="--index: 1;">STACK</span>
+			<span style="--index: 2;">STACK</span>
+		</div>
 	  </div>
 	</div>
   </div>

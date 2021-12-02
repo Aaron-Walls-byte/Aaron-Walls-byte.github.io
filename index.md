@@ -17,13 +17,18 @@
   <div class="banner stripes">
 	<div class="colorbar">
 	  <div class="bannerMessage">
-		Aaron J Walls
-		<div class="stack" style="--stacks 3;">
-			<span style="--index: 0;">STACK</span>
-			<span style="--index: 1;">STACK</span>
-			<span style="--index: 2;">STACK</span>
-		</div>
-	  </div>
+		Aaron Walls
+		<div class="stack" style="--stacks: 3;">
+		<span style="--index: 0;">Software Engineer &</span>
+		<span style="--index: 1;">Software Engineer &</span>
+		<span style="--index: 2;">Software Engineer &</span>
+	</div>
+	<div class="stack" style="--stacks: 3;">
+		<span style="--index: 0;">Cyber Security Analyst</span>
+		<span style="--index: 1;">Cyber Security Analyst</span>
+		<span style="--index: 2;">Cyber Security Analyst</span>
+	</div>
+  <span class="right">Updated on December 2, 2021</span>
 	</div>
   </div>
   <div class="Main2">

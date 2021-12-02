@@ -158,6 +158,8 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
 .banner { width: 100%; margin-left: auto; margin-right: auto; background-color: #024f3f; position: relative; z-index: -1; }
 
 /* .banner.stripes { background-image: linear-gradient(to right, #304f56 0%, #304f56 12.5%,#1c3e43 12.5%,#1c3e43 25%,#304e29 25%, #304e29 37.5%,#4f561c 37.5%,#4f561c 50%,#625618 50%, #625618 62.5%,#613814 62.5%,#613814 75%,#5d2a41 75%, #5d2a41 87.5%,#4c2742 87.5%); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 80vh; } */
+.right { text-align: right; width: 100%; }
+
 .banner.stripes { background-image: linear-gradient(to right, #b03a19 0%, #893c24 12.5%, #842d78 12.5%, #6c3765 25%, #174db1 25%, #304d84 37.5%, #297ea1 37.5%, #286f8c 50%, #e5a836 50%, #cd9b3d 62.5%, #613814 62.5%, #613814 75%, #b2336c 75%, #9b3865 87.5%, #4c2742 87.5%); background-attachment: fixed; background-position: center center; background-repeat: no-repeat; background-size: cover; min-height: 80vh; }
 
 .stretch { margin-left: auto; margin-right: auto; display: block; max-width: 100%; padding-top: 35vh; }
