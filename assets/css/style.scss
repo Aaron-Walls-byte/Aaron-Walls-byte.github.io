@@ -102,7 +102,7 @@ a.underline:after {
   position: relative;
   z-index: -1;
 }
-/*
+
 .banner.stripes {
     background-image: url('../images/noise.png');
     background-position: center center;
@@ -110,11 +110,12 @@ a.underline:after {
     background-size: cover;
     min-height: 80vh;
 }
-*/
+
 .right {
   text-align: right;
   width: 100%;
 }
+/*
 .banner.stripes {
     background-image: linear-gradient(to right,
 	#b03a19 0%, #893c24 12.5%, #842d78 12.5%, 
@@ -128,6 +129,8 @@ a.underline:after {
     background-size: cover;
     min-height: 80vh;
 }
+
+*/
 .stretch{
   margin-left: auto;
   margin-right: auto;
