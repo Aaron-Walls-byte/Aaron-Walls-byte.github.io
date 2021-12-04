@@ -30,6 +30,8 @@
 				</div>
 				<span class="right">Updated on December 2, 2021</span>
 			</div>
+			<div class="fastBars">	
+			</div>
 		</div>
 	</div>
 </div>

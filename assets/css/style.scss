@@ -13,7 +13,7 @@
 	--fast-bar-3: #FF722E;
 	--fast-bar-4: #FF353B;
 	--fast-bar-5: #BB3242;
-	--accent-color: #FF722E;
+	--accent-color: #bd426d;
 }
 
 header{
@@ -222,6 +222,22 @@ a.underline:after {
   .stack span{
 	  font-size: 2rem;
   }
+}
+
+.fastBars{
+	display: inline-block;
+	width: 20%;
+	transform: skew(-35deg);
+	background-image: linear-gradient(to right,
+	var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+	var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+	var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+	var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+	var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    min-height: 80vh;
 }
 
 .Main2 {
