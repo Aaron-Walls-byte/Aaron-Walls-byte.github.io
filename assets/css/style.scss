@@ -285,7 +285,7 @@ a.underline:after {
 }
 
 .content-left{
-  maring: 2%;
+  padding: 2%;
 }
 p.red::selection {
   background: var(--accent-color);
@@ -296,7 +296,9 @@ p.red::-moz-selection {
 .cartoonify{
 	max-width: 80%;
 }
-
+.content-right{
+	padding: 2%;
+}
 .Main3 {
   min-height: 100vh;
   display: flex;
