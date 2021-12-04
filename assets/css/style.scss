@@ -244,6 +244,16 @@ a.underline:after {
 	flex-wrap: wrap;
 	align-items: stretch; 
 }
+@media screen and (max-width: 1000px) {
+  .fastBars{
+	  transform: skew(-90deg);
+	  margin-bottom: 0;
+	  margin-top: auto;
+	  margin-left: 0;
+	  margin-right: 0;
+  }
+}
+
 
 .Main2 {
   display: flex;
