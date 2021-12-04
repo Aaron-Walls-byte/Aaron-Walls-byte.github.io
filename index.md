@@ -45,20 +45,27 @@
 		I was 13, and have been learning and using development skills ever since. I started my professional career in computer technology as <i>the</i> IT guy and
 		used my coding skills to create administrative scripts in powershell, bash, and python. After 3 years of IT support, I moved into the cyber security realm. 
 		Around the sametime, I enrolled into college to persue my original passion: Software Development. Working full-time and attending school online as a full-time 
-		student never felt overwhelming because the content of the work were very closely related. 
-		<br/>
+		student never felt overwhelming because the content of the work were very closely related. </p>
+		<p>
 		This portfolio highlights some of the skills gained as a cyber security professional, and demonstrates projects I have completed as apart of my course work.
 		</p>
 	</div>
 	<div class="content-right">
-		<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+		<div class="skills">
+			<div class="details">
+				<span class="icon">(img)</span>
+			</div>
+			<div class="bar">
+				<div id="html-bar"></div>
+			<div>
+			<div id="years">4 years</div>
+		</div>
 	</div>
 </div>
 <div class="Main3">
 	<input type="checkbox" class="read-more-state" id="post-1" />
 	<div class="readmore">
-		<p class="blue">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+		<p class="red">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
 		<span class="readmore-link"></span>
 	</div>
