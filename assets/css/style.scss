@@ -2,6 +2,20 @@
 ---
 
 @import "{{ site.theme }}";
+
+:root{
+	--jumbo-text-color: #382512;  
+	--jumbo-bg-color: #EFDBBB;
+	--nav-bar-color: #333333;
+	--nav-text-color: #EAEAEA;
+	--fast-bar-1: #FBE8D1;
+	--fast-bar-2: #FCB80D;
+	--fast-bar-3: #FF722E;
+	--fast-bar-4: #FF353B;
+	--fast-bar-5: #BB3242;
+	--accent-color: #FF722E;
+}
+
 header{
   display: none;
 }
@@ -14,7 +28,7 @@ header{
   overflow: hidden;
   margin: 0;
   padding: .5% 5% .5% 3%;
-  background-color: #333;
+  background-color: var(--nav-bar-color);
   display: flex;
   justify-content: Flex-end;
 }
@@ -27,8 +41,8 @@ header{
   align-items: flex-start;
 }
 a {
-  color: #eaeaea;
-  text-shadow: 0 0 5px #90a959;
+  color: var(--nav-text-color);
+  text-shadow: 0 0 5px var(--jumbo-text-color);
 }
 .topnav a{
   text-align: center;
@@ -42,8 +56,8 @@ a.box{
   border: 2px solid #eaeaea;
 }
 a.box:hover {
-  color: greenyellow;
-  border: 2px solid greenyellow;
+  color: var(--accent-color);
+  border: 2px solid var(--accent-color);
 }
 a.underline {
   display: inline-block;
@@ -57,7 +71,7 @@ a.underline:after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: greenyellow;
+  background-color: var(accent-color);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -98,7 +112,7 @@ a.underline:after {
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  background-color: #024f3f;
+  background-color: var(--jumbo-bg-color);
   position: relative;
   z-index: -1;
 }
@@ -108,7 +122,7 @@ a.underline:after {
     background-position: center center;
     background-repeat: repeat;
     min-height: 80vh;
-	color: #382512;
+	color: var(--jumbo-text-color);
 }
 
 .right {
@@ -224,23 +238,12 @@ a.underline:after {
   maring: 2%;
 }
 p.red::selection {
-  background: #ffb7b7;
+  background: var(--accent-color);
 }
 p.red::-moz-selection {
-  background: #ffb7b7;
+  background: var(--accent-color);
 }
-p.blue::selection {
-  background: #a8d1ff;
-}
-p.blue::-moz-selection {
-  background: #a8d1ff;
-}
-p.yellow::selection {
-  background: #fff2a8;
-}
-p.yellow::-moz-selection {
-  background: #fff2a8;
-}
+
 
 .Main3 {
   display: flex;
