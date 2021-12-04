@@ -247,7 +247,7 @@ a.underline:after {
 @media screen and (max-width: 1000px) {
   .fastBars{
 	  transform: skew(0);
-	  background-image: linear-gradient(to right,
+	  background-image: linear-gradient(to bottom,
 	var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
 	var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
 	var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
@@ -272,6 +272,12 @@ a.underline:after {
   padding-left: 5vw;
   padding-right: 5vw;
 }
+@media screen and (max-width: 600px) {
+  .Main2{
+	flex-direction: column;
+  }
+}
+
 .content-left{
   maring: 2%;
 }
@@ -293,5 +299,9 @@ p.red::-moz-selection {
   padding-left: 5vw;
   padding-right: 5vw;
 }
-
+@media screen and (max-width: 600px) {
+  .Main3{
+	flex-direction: column;
+  }
+}
 
