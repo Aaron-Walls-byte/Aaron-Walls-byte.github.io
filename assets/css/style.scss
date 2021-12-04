@@ -71,7 +71,7 @@ a.underline:after {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: var(accent-color);
+  background-color: var(--accent-color);
   transform-origin: bottom right;
   transition: transform 0.25s ease-out;
 }
@@ -225,7 +225,9 @@ a.underline:after {
 }
 
 .fastBars{
-	display: inline-block;
+	display: flex;
+	margin-right: 20%;
+	margin-left: auto;
 	width: 20%;
 	transform: skew(-35deg);
 	background-image: linear-gradient(to right,
@@ -238,6 +240,9 @@ a.underline:after {
     background-repeat: repeat;
     background-size: cover;
     min-height: 80vh;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: stretch; 
 }
 
 .Main2 {
