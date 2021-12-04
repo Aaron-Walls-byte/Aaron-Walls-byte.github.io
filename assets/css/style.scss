@@ -246,11 +246,18 @@ a.underline:after {
 }
 @media screen and (max-width: 1000px) {
   .fastBars{
-	  transform: skew(-90deg);
-	  margin-bottom: 0;
-	  margin-top: auto;
-	  margin-left: 0;
-	  margin-right: 0;
+	  transform: skew(0);
+	  background-image: linear-gradient(to right,
+	var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+	var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+	var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+	var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+	var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+	transform: skew(0deg);
+	min-height: 20vh;
+	width: 100%;
+	bottom: 5%;
+	position: absolute;
   }
 }
 
