@@ -304,6 +304,16 @@ p.red::-moz-selection {
 
 .skills{
 	min-width: 30vw;
+	padding-bottom: 2%;
+}
+
+.icon{
+	margin-left: 2%;
+}
+@media screen and (max-width: 1000px) {
+	.icon{
+		margin: auto;
+	}
 }
 .details{
     width: 100%;
