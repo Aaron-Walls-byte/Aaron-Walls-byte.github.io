@@ -384,6 +384,30 @@ p.red::-moz-selection {
         width: 35%;
     }
 }
+#Docker-bar{
+    animation: Docker-fill 2s forwards;
+}
+@keyframes Docker-fill{
+    100%{
+        width: 42%;
+    }
+}
+#kubernetes-bar{
+    animation: kubernetes-fill 2s forwards;
+}
+@keyframes kubernetes-fill{
+    100%{
+        width: 42%;
+    }
+}
+#elastic-bar{
+    animation: elastic-fill 2s forwards;
+}
+@keyframes elastic-fill{
+    100%{
+        width: 42%;
+    }
+}
 .Main3 {
   min-height: 100vh;
   display: flex;

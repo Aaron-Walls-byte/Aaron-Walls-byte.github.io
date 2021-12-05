@@ -115,6 +115,34 @@
 			</div>
 			<div id="years">1 year</div>
 		</div>
+		<h2>Platforms</h2>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/Docker.png" width="50" height="50"></span>
+			</div>
+			<div class="bar">
+				<div id="docker-bar"></div>
+			</div>
+			<div id="years">1 year</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/kubernetes.png" width="50" height="50"></span>
+			</div>
+			<div class="bar">
+				<div id="kubernetes-bar"></div>
+			</div>
+			<div id="years">1 year</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/elastic.png" width="50" height="50"></span>
+			</div>
+			<div class="bar">
+				<div id="elastic-bar"></div>
+			</div>
+			<div id="years">1 year</div>
+		</div>
 	</div>
 </div>
 <div class="Main3">
