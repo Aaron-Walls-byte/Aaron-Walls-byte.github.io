@@ -323,7 +323,7 @@ p.red::-moz-selection {
 }
 .bar{
     position: relative;
-    border: 2px solid var(accent-color);
+    border: 2px solid var(--accent-color);
     border-radius: 20px;
   
 }
@@ -332,7 +332,7 @@ p.red::-moz-selection {
     width: 0;
     height: 9px;
     border-radius: 10px;
-    background-color: var(accent-color);
+    background-color: var(--accent-color);
     
  
 }
