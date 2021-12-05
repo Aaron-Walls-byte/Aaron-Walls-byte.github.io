@@ -53,7 +53,7 @@
 	<div class="content-right">
 		<div class="skills">
 			<div class="details">
-				<span class="icon">(img)</span>
+				<span class="icon"><img src="./assets/icons/HTML5.svg" width="100" height="100"></span>
 			</div>
 			<div class="bar">
 				<div id="html-bar"></div>
@@ -62,30 +62,30 @@
 		</div>
 		<div class="skills">
 			<div class="details">
-				<span class="icon">(img)</span>
+				<span class="icon"><img src="./assets/icons/CSS3.svg" width="100" height="100"></span>
 			</div>
 			<div class="bar">
-				<div id="html-bar"></div>
+				<div id="css-bar"></div>
 			</div>
 			<div id="years">4 years</div>
 		</div>
 		<div class="skills">
 			<div class="details">
-				<span class="icon">(img)</span>
+				<span class="icon"><img src="./assets/icons/JS.svg" width="100" height="100"></span>
 			</div>
 			<div class="bar">
-				<div id="html-bar"></div>
+				<div id="js-bar"></div>
 			</div>
 			<div id="years">4 years</div>
 		</div>
 		<div class="skills">
 			<div class="details">
-				<span class="icon">(img)</span>
+				<span class="icon"><img src="./assets/icons/java.svg" width="100" height="100"></span>
 			</div>
 			<div class="bar">
-				<div id="html-bar"></div>
+				<div id="java-bar"></div>
 			</div>
-			<div id="years">4 years</div>
+			<div id="years">several years</div>
 		</div>
 	</div>
 </div>

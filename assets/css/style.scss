@@ -331,9 +331,34 @@ p.red::-moz-selection {
 }
 @keyframes html-fill{
     100%{
-        width: 90%;
+        width: 58%;
     }
 }
+#css-bar{
+    animation: css-fill 2s forwards;
+}
+@keyframes css-fill{
+    100%{
+        width: 58%;
+    }
+}
+#js-bar{
+    animation: js-fill 2s forwards;
+}
+@keyframes js-fill{
+    100%{
+        width: 52%;
+    }
+}
+#java-bar{
+    animation: java-fill 2s forwards;
+}
+@keyframes java-fill{
+    100%{
+        width: 95%;
+    }
+}
+
 .Main3 {
   min-height: 100vh;
   display: flex;
