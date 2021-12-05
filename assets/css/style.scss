@@ -385,9 +385,9 @@ p.red::-moz-selection {
     }
 }
 #Docker-bar{
-    animation: Docker-fill 2s forwards;
+    animation: docker-fill 2s forwards;
 }
-@keyframes Docker-fill{
+@keyframes docker-fill{
     100%{
         width: 42%;
     }
