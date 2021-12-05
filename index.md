@@ -51,6 +51,7 @@
 		</p>
 	</div>
 	<div class="content-right">
+		<h2>Skills: </h2>
 		<div class="skills">
 			<div class="details">
 				<span class="icon"><img src="./assets/icons/HTML5.svg" width="100" height="100"></span>
