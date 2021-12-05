@@ -42,7 +42,7 @@
 		<p class="red">
 		I am currently employed as a Cyber Security Analyst for the United States Air Force. It is as cool as it sounds, but it isn't my only skill set. 
 		Computer technology is a passion of mine, and soon I'll earn my software engineering degree (End of December 2021). I started coding in Java when 
-		I was 13, and have been learning and using development skills ever since. I started my professional career in computer technology as <i>the</i> IT guy and
+		I was 13, and have been learning and using development skills ever since. I began my professional career in computer technology as <i>the</i> IT guy and
 		used my coding skills to create administrative scripts in powershell, bash, and python. After 3 years of IT support, I moved into the cyber security realm. 
 		Around the sametime, I enrolled into college to persue my original passion: Software Development. Working full-time and attending school online as a full-time 
 		student never felt overwhelming because the content of the work were very closely related. </p>
