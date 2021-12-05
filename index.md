@@ -88,6 +88,33 @@
 			</div>
 			<div id="years">several years</div>
 		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/c.png" width="100" height="100"></span>
+			</div>
+			<div class="bar">
+				<div id="c-bar"></div>
+			</div>
+			<div id="years">3 years</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/C++.svg" width="100" height="100"></span>
+			</div>
+			<div class="bar">
+				<div id="c-bar"></div>
+			</div>
+			<div id="years">3 years</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon"><img src="./assets/icons/Python.svg" width="100" height="100"></span>
+			</div>
+			<div class="bar">
+				<div id="python-bar"></div>
+			</div>
+			<div id="years">1 year</div>
+		</div>
 	</div>
 </div>
 <div class="Main3">

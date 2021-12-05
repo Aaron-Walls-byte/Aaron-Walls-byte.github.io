@@ -323,7 +323,7 @@ p.red::-moz-selection {
 }
 .bar{
     position: relative;
-    border: 2px solid #0d96e0;
+    border: 2px solid var(accent-color);
     border-radius: 20px;
   
 }
@@ -332,7 +332,7 @@ p.red::-moz-selection {
     width: 0;
     height: 9px;
     border-radius: 10px;
-    background-color: #0d96e0;
+    background-color: var(accent-color);
     
  
 }
@@ -368,7 +368,22 @@ p.red::-moz-selection {
         width: 95%;
     }
 }
-
+#c-bar{
+    animation: c-fill 2s forwards;
+}
+@keyframes c-fill{
+    100%{
+        width: 70%;
+    }
+}
+#python-bar{
+    animation: python-fill 2s forwards;
+}
+@keyframes python-fill{
+    100%{
+        width: 35%;
+    }
+}
 .Main3 {
   min-height: 100vh;
   display: flex;
