@@ -60,6 +60,33 @@
 			</div>
 			<div id="years">4 years</div>
 		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon">(img)</span>
+			</div>
+			<div class="bar">
+				<div id="html-bar"></div>
+			</div>
+			<div id="years">4 years</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon">(img)</span>
+			</div>
+			<div class="bar">
+				<div id="html-bar"></div>
+			</div>
+			<div id="years">4 years</div>
+		</div>
+		<div class="skills">
+			<div class="details">
+				<span class="icon">(img)</span>
+			</div>
+			<div class="bar">
+				<div id="html-bar"></div>
+			</div>
+			<div id="years">4 years</div>
+		</div>
 	</div>
 </div>
 <div class="Main3">
