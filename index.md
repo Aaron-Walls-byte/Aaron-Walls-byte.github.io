@@ -57,8 +57,8 @@
 			</div>
 			<div class="bar">
 				<div id="html-bar"></div>
-				<div id="years">4 years</div>
 			</div>
+			<div id="years">4 years</div>
 		</div>
 	</div>
 </div>
