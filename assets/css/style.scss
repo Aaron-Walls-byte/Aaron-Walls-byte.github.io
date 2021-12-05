@@ -301,6 +301,10 @@ p.red::-moz-selection {
 .content-right{
 	padding: 2%;
 }
+
+.skills{
+	min-width: 30vw;
+}
 .details{
     width: 100%;
     display: flex;  
@@ -309,9 +313,7 @@ p.red::-moz-selection {
 }
 .bar{
     position: relative;
- 
     border: 2px solid #0d96e0;
- 
     border-radius: 20px;
   
 }
@@ -321,7 +323,7 @@ p.red::-moz-selection {
     height: 9px;
     border-radius: 10px;
     background-color: #0d96e0;
-   
+    
  
 }
 #html-bar{
