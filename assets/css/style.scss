@@ -429,14 +429,14 @@ p.red::-moz-selection {
     background-size: 34px 34px;
     border: solid 2px;
 }
-div#pj1-title {
+#pj1-title {
 	padding-top: 4em;
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;	
 }
-span#prj1-name {
+#prj1-name {
     font-family: impact;
     font-size: 3.5rem;
 	transform: skew(-10deg);

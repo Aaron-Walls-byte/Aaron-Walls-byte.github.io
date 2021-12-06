@@ -152,7 +152,7 @@
 			<span id="pj1-decoration"></span>
 		</div>
 		<div id="prj1-img">
-			<div id="pj1-img">
+			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
 			</div>
 		</div>
