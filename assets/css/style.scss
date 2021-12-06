@@ -410,11 +410,24 @@ p.red::-moz-selection {
 }
 .Main3 {
   min-height: 100vh;
-  padding-left: 0;
-  padding-right: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
   margin: 0;
+  display: flex;
   overflow: hidden;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
 }
+.box-left{
+	padding: 2%;
+	min-width: 40%;
+}
+.box-right{
+	padding: 2%;
+	min-width: 40%;
+}
+
 
 
 
