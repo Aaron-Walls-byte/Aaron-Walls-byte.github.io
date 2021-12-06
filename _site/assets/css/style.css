@@ -279,13 +279,17 @@ p.red::-moz-selection { background: var(--accent-color); }
 
 .Main3 { min-height: 100vh; padding-left: 5vw; padding-right: 5vw; margin: 0; display: flex; overflow: hidden; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; }
 
-.box-left { padding-left: 2%; min-width: 40%; }
+.box-left { padding-left: 2%; min-width: 40%; background-color: #000000; opacity: 0.8; background-image: linear-gradient(#5c5c5c 1.7px, transparent 1.7px), linear-gradient(to right, #5c5c5c 1.7px, #000000 1.7px); background-size: 34px 34px; border: solid 2px; }
 
-div#pj1-title { display: inline-flex; flex-direction: row; justify-content: flex-start; align-items: center; }
+div#pj1-title { padding-top: 4em; display: inline-flex; flex-direction: row; justify-content: flex-start; align-items: center; }
 
-span#prj1-name { font-family: fantasy; font-size: 3.5rem; }
+span#prj1-name { font-family: fantasy; font-size: 3.5rem; transform: skew(-10deg); }
 
-#pj1-decoration { background-color: azure; float: right; width: 15vw; height: 5rem; }
+#pj1-decoration { background-color: azure; float: right; width: 15vw; height: 5rem; transform: skew(-10deg); background-image: linear-gradient(to bottom, var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, var(--fast-bar-2) 20%, var(--fast-bar-2) 40%, var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, var(--fast-bar-4) 60%, var(--fast-bar-4) 80%, var(--fast-bar-5) 80%, var(--fast-bar-5) 100%); }
+
+@media screen and (max-width: 1050px) { .Main3 { min-height: 100vh; padding-left: 5vw; padding-right: 5vw; margin: 0; display: flex; overflow: hidden; flex-direction: column; flex-wrap: nowrap; justify-content: space-evenly; } .box-left { min-height: 90vh; } #pj1-decoration { width: 30vw; } }
+
+@media screen and (max-width: 650px) { #prj1-name { font-size: 2.5rem; } }
 
 .box-right { padding-right: 2%; min-width: 40%; }
 
