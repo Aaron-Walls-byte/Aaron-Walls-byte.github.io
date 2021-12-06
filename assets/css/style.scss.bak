@@ -453,6 +453,30 @@ span#prj1-name {
  var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
+@media screen and (max-width: 1050px) {
+	.Main3 {
+    min-height: 100vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	}
+	.box-left{
+		min-height: 90vh;
+	}
+	#pj1-decoration{
+		width: 30vw;
+	}
+}
+@media screen and (max-width: 650px) {
+	#prj1-name{
+		font-size: 2.5rem;
+	}
+}
 .box-right{
 	padding-right: 2%;
 	min-width: 40%;

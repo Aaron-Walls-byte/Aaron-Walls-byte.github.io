@@ -420,7 +420,8 @@ p.red::-moz-selection {
   justify-content: space-between;
 }
 .box-left {
-    padding-left: 2%;
+    padding: 2%;
+	margin-left: 2%;
     min-width: 40%;
     background-color: #000000;
     opacity: 0.8;
@@ -453,7 +454,7 @@ span#prj1-name {
  var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1200px) {
 	.Main3 {
     min-height: 100vh;
     padding-left: 5vw;
