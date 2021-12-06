@@ -455,7 +455,10 @@ p.red::-moz-selection {
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
 #prj1-img {
-    display: flex;
+    
+}
+#prj1-decr{
+	display: flex;
     padding left: 40%;
     font-size: 1.5rem;
     flex-direction: column;
