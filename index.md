@@ -146,7 +146,30 @@
 	</div>
 </div>
 <div class="Main3">
-
+	<div class="box-left">
+		<div id="pj1-title">
+			<span id="prj1-name">Project 1</span>
+			<span id="pj1-decoration"></span>
+		</div>
+		<div id="prj1-img">
+		</div>
+		<div id="prj1-footer">
+			<span id="pj1-footer-decoration"></span>
+			<span id="prj1-footer-name">Project 1</span>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="pj1-reverse-title">
+			<span id="prj1-liner">Project 1</span>
+			<span id="pj1-reverse-decoration"></span>
+		</div>
+		<div id="prj1-explination">
+		</div>
+		<div id="prj1-footer">
+			<span id="pj1-footer-decoration"></span>
+			<span id="prj1-footer-name">Project 1</span>
+		</div>
+	<div>
 </div>
 
 
