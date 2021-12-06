@@ -279,8 +279,14 @@ p.red::-moz-selection { background: var(--accent-color); }
 
 .Main3 { min-height: 100vh; padding-left: 5vw; padding-right: 5vw; margin: 0; display: flex; overflow: hidden; flex-direction: row; flex-wrap: nowrap; justify-content: space-between; }
 
-.box-left { padding: 2%; min-width: 40%; }
+.box-left { padding-left: 2%; min-width: 40%; }
 
-.box-right { padding: 2%; min-width: 40%; }
+div#pj1-title { display: inline-flex; flex-direction: row; justify-content: flex-start; align-items: center; }
+
+span#prj1-name { font-family: fantasy; font-size: 3.5rem; }
+
+#pj1-decoration { background-color: azure; float: right; width: 15vw; height: 5rem; }
+
+.box-right { padding-right: 2%; min-width: 40%; }
 
 /*# sourceMappingURL=style.css.map */

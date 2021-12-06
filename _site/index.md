@@ -148,7 +148,7 @@
 <div class="Main3">
 	<div class="box-left">
 		<div id="pj1-title">
-			<span id="prj1-name">Project 1</span>
+			<span id="prj1-name">State Machines</span>
 			<span id="pj1-decoration"></span>
 		</div>
 		<div id="prj1-img">
