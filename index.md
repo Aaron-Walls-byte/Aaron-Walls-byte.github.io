@@ -81,7 +81,7 @@
 		</div>
 		<div class="skills">
 			<div class="details">
-				<span class="icon"><img src="./assets/icons/java.svg" width="70" height="70"></span>
+				<span class="icon"><img src="./assets/icons/java.svg" width="60" height="60"></span>
 			</div>
 			<div class="bar">
 				<div id="java-bar"></div>
