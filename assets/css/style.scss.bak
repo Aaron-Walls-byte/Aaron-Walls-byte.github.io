@@ -454,6 +454,15 @@ span#prj1-name {
  var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
+#prj1-img {
+    display: flex;
+    padding left: 40%;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
 @media screen and (max-width: 1200px) {
 	.Main3 {
     min-height: 100vh;
@@ -475,7 +484,10 @@ span#prj1-name {
 }
 @media screen and (max-width: 650px) {
 	#prj1-name{
-		font-size: 2.5rem;
+		font-size: 2rem;
+	}
+	#pj1-descr{
+		font-size: 1rem;
 	}
 }
 .box-right{
