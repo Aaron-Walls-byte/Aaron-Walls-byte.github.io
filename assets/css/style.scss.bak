@@ -128,6 +128,7 @@ a.underline:after {
     background-repeat: repeat;
     min-height: 80vh;
 	color: var(--jumbo-text-color);
+	
 }
 
 .right {
@@ -167,6 +168,7 @@ a.underline:after {
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 
 .stack {
@@ -412,7 +414,7 @@ p.red::-moz-selection {
   min-height: 100vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  margin-top: 5vw;
+  padding-top: 5vw;
   display: flex;
   overflow: hidden;
   flex-direction: row;
@@ -429,24 +431,25 @@ p.red::-moz-selection {
     background-size: 34px 34px;
     border: solid 2px;
 }
-div#pj1-title {
+#pj1-title {
 	padding-top: 4em;
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;	
+    align-items: center;
+	width: 100%;	
 }
-span#prj1-name {
-    font-family: fantasy;
+#prj1-name {
+    font-family: impact;
     font-size: 3.5rem;
 	transform: skew(-10deg);
+	min-width: fit-content;
 }
 #pj1-decoration {
     background-color: azure;
     float: right;
-    width: 15vw;
+    width: -webkit-fill-available;
     height: 5rem;
-    transform: skew(-10deg);
     background-image: linear-gradient(to bottom,
  var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
  var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
@@ -455,13 +458,15 @@ span#prj1-name {
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
 #prj1-img {
+    
+}
+#pj1-descr {
+    margin-top: 5vw;
     display: flex;
-    padding left: 40%;
-    font-size: 1.5rem;
     flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
     align-items: center;
+	font-size: 2rem;
+	font-family: impact;
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {

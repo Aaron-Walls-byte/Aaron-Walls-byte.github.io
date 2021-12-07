@@ -128,7 +128,7 @@ a.underline:after {
     background-repeat: repeat;
     min-height: 80vh;
 	color: var(--jumbo-text-color);
-	min-width: fit-content;
+	
 }
 
 .right {
@@ -168,6 +168,7 @@ a.underline:after {
   font-size: 1.5rem;
   display: flex;
   flex-direction: column;
+  width: fit-content;
 }
 
 .stack {
@@ -431,7 +432,8 @@ p.red::-moz-selection {
     border: solid 2px;
 }
 #pj1-title {
-	padding-top: 4em;
+	padding-top: 1em;
+	padding-bottom: 3em;
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -481,9 +483,6 @@ p.red::-moz-selection {
 	}
 	.box-left{
 		min-height: 90vh;
-	}
-	#pj1-decoration{
-		width: 30vw;
 	}
 }
 @media screen and (max-width: 650px) {
