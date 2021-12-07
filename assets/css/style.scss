@@ -441,7 +441,7 @@ p.red::-moz-selection {
 	width: 100%;	
 }
 #prj1-name {
-    font-family: impact;
+    font-family: "Audiowide", sans-serif;
     font-size: 3.5rem;
 	transform: skew(-10deg);
 	min-width: fit-content;
@@ -467,7 +467,15 @@ p.red::-moz-selection {
     flex-direction: column;
     align-items: center;
 	font-size: 2rem;
-	font-family: impact;
+	font-family: "Audiowide", sans-serif;
+}
+#prj1-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Arial;
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {

@@ -4,6 +4,7 @@
 
 <div class="topnav" id="myTopnav">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
   <a class="underline" href="#">Software Design</a>
   <a class="underline" href="#">Data Structures and Algorithms</a>
   <a class="underline" href="#">Database Management</a>
@@ -148,13 +149,14 @@
 <div class="Main3">
 	<div class="box-left">
 		<div id="pj1-title">
-			<span id="prj1-name">State Machines</span>
+			<span id="prj1-name">Software Design</span>
 			<span id="pj1-decoration"></span>
 		</div>
 		<div id="prj1-img">
 			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
 				<img src="./assets/images/cc3200.png" height="350px">
+				<p id="prj1-content">Exploring state machines in C</p>
 			</div>
 		</div>
 		<div id="prj1-footer">

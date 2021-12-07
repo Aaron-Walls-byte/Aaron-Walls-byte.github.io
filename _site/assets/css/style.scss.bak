@@ -429,7 +429,8 @@ p.red::-moz-selection {
     border: solid 2px;
 }
 #pj1-title {
-	padding-top: 4em;
+	padding-top: 1em;
+	padding-bottom: 3em;
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -437,7 +438,7 @@ p.red::-moz-selection {
 	width: 100%;	
 }
 #prj1-name {
-    font-family: impact;
+    font-family: "Audiowide", sans-serif;
     font-size: 3.5rem;
 	transform: skew(-10deg);
 	min-width: fit-content;
@@ -463,7 +464,7 @@ p.red::-moz-selection {
     flex-direction: column;
     align-items: center;
 	font-size: 2rem;
-	font-family: impact;
+	font-family: "Audiowide", sans-serif;
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {
@@ -479,9 +480,6 @@ p.red::-moz-selection {
 	}
 	.box-left{
 		min-height: 90vh;
-	}
-	#pj1-decoration{
-		width: 30vw;
 	}
 }
 @media screen and (max-width: 650px) {
