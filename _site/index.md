@@ -156,12 +156,12 @@
 			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
 				<img src="./assets/images/cc3200.png" height="350px">
-				<p id="prj1-content">Exploring state machines in C</p>
+				<p id="prj1-content">Exploring "Internet of things" development in C</p>
 			</div>
 		</div>
 		<div id="prj1-footer">
 			<span id="pj1-footer-decoration"></span>
-			<span id="prj1-footer-name">Project 1</span>
+			<span id="prj1-footer-name">Software Design</span>
 		</div>
 	</div>
 	<div class="box-right">

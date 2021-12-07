@@ -446,18 +446,7 @@ p.red::-moz-selection {
 	transform: skew(-10deg);
 	min-width: fit-content;
 }
-#pj1-decoration {
-    background-color: azure;
-    float: right;
-    width: -webkit-fill-available;
-    height: 5rem;
-    background-image: linear-gradient(to bottom,
- var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
- var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
- var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
- var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
- var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
-}
+
 #prj1-img {
     
 }
@@ -476,6 +465,27 @@ p.red::-moz-selection {
     align-items: center;
     font-size: 1.5rem;
     font-family: Arial;
+}
+div#prj1-footer {
+    display: flex;
+    margin-top: 10%;
+    padding-top: 65%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-image:linear-gradient(to bottom, 
+var(--fast-bar-1) 0%, var(--fast-bar-1) 2%,
+#FF000000 2%, #FF000000 5%,
+var(--fast-bar-2) 5%, var(--fast-bar-2) 9%,
+#FF000000 9%, #FF000000 11%,
+var(--fast-bar-3) 11%, var(--fast-bar-3) 19%,
+#FF000000 21%, #FF000000 24%,
+var(--fast-bar-4) 24%, var(--fast-bar-4) 40%,
+#FF000000 40%, #FF000000 43%,
+var(--fast-bar-5) 43%, var(--fast-bar-5) 75%,
+#FF000000 75%, #FF000000 100%);
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {
