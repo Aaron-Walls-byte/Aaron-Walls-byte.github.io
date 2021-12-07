@@ -461,7 +461,7 @@ span#pj1-decoration {
     display: flex;
     flex-direction: column;
     align-items: center;
-	font-size: 2rem;
+	font-size: 1.7em;
 	font-family: "Audiowide", sans-serif;
 }
 #prj1-content {
@@ -557,7 +557,7 @@ span#pj3-decoration {
     display: flex;
     flex-direction: column;
     align-items: center;
-	font-size: 2rem;
+	font-size: 1.7em;
 	font-family: "Audiowide", sans-serif;
 }
 #prj3-content {
