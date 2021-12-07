@@ -492,7 +492,7 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
 }
 @media screen and (max-width: 1200px) {
-	.Main3 {
+	.Main3 .Main4 .Main5{
     min-height: 100vh;
     padding-left: 5vw;
     padding-right: 5vw;
@@ -505,6 +505,7 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 	}
 	.box-left{
 		min-height: 90vh;
+		max-width: 100%;
 	}
 }
 @media screen and (max-width: 650px) {
@@ -586,22 +587,6 @@ var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
 #FF000000 61%, #FF000000 64%,
 var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
-}
-@media screen and (max-width: 1200px) {
-	.Main5 {
-    min-height: 100vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
-    margin: 0;
-    display: flex;
-    overflow: hidden;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: space-evenly;
-	}
-	.box-left{
-		min-height: 90vh;
-	}
 }
 @media screen and (max-width: 650px) {
 	#prj3-name{
