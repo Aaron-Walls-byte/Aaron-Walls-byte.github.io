@@ -457,15 +457,13 @@ p.red::-moz-selection {
 #prj1-img {
     
 }
-#prj1-decr{
-	display: flex;
-    padding-left: 40%;
-    font-size: 1.5rem;
-	font: impact;
+#pj1-descr {
+    margin-top: 5vw;
+    display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    flex-wrap: nowrap;
     align-items: center;
+	font-size: 2rem;
+	font-family: impact;
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {
