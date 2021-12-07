@@ -285,7 +285,7 @@ p.red::-moz-selection { background: var(--accent-color); }
 
 #prj1-name { font-family: impact; font-size: 3.5rem; transform: skew(-10deg); min-width: fit-content; }
 
-#pj1-decoration { background-color: azure; float: right; width: 15vw; height: 5rem; transform: skew(-10deg); background-image: linear-gradient(to bottom, var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, var(--fast-bar-2) 20%, var(--fast-bar-2) 40%, var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, var(--fast-bar-4) 60%, var(--fast-bar-4) 80%, var(--fast-bar-5) 80%, var(--fast-bar-5) 100%); }
+#pj1-decoration { background-color: azure; float: right; width: -webkit-fill-available; height: 5rem; transform: skew(-10deg); background-image: linear-gradient(to bottom, var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, var(--fast-bar-2) 20%, var(--fast-bar-2) 40%, var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, var(--fast-bar-4) 60%, var(--fast-bar-4) 80%, var(--fast-bar-5) 80%, var(--fast-bar-5) 100%); }
 
 #pj1-descr { margin-top: 5vw; display: flex; flex-direction: column; align-items: center; font-size: 2rem; font-family: impact; }
 

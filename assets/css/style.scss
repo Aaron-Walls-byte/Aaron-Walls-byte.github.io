@@ -446,7 +446,7 @@ p.red::-moz-selection {
 #pj1-decoration {
     background-color: azure;
     float: right;
-    width: 15vw;
+    width: -webkit-fill-available;
     height: 5rem;
     transform: skew(-10deg);
     background-image: linear-gradient(to bottom,
