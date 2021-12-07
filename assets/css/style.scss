@@ -502,6 +502,7 @@ div#pj1-reverse-decoration {
     align-content: center;
     justify-content: center;
     align-items: center;
+	font-size: 1.2rem;
 }
 @media screen and (max-width: 1200px) {
 	.Main3, .Main4, .Main5{
@@ -521,6 +522,8 @@ div#pj1-reverse-decoration {
 	}
 	.box-right{
 		margin-left: 2%;
+		min-height: 90vh;
+		max-width: 100%;
 	}
 }
 @media screen and (max-width: 650px) {
