@@ -153,8 +153,8 @@
 		</div>
 		<div id="prj1-img">
 			<div id="pj1-descr">
-				<p>FEATURING FEATURING CC3200 LAUNCH PAD</p>
-				<img class="pcb" src="./assets/images/cc3200.png" height="350px">
+				FEATURING CC3200 LAUNCH PAD
+				<img src="./assets/images/cc3200.png" alt="Paris">
 			</div>
 		</div>
 		<div id="prj1-footer">

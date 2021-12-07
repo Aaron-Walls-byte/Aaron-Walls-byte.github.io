@@ -409,7 +409,7 @@ p.red::-moz-selection {
   min-height: 100vh;
   padding-left: 5vw;
   padding-right: 5vw;
-  margin: 0;
+  margin-top: 5vw;
   display: flex;
   overflow: hidden;
   flex-direction: row;
@@ -417,7 +417,8 @@ p.red::-moz-selection {
   justify-content: space-between;
 }
 .box-left {
-    padding-left: 2%;
+    padding: 2%;
+	margin-left: 2%;
     min-width: 40%;
     background-color: #000000;
     opacity: 0.8;
@@ -450,7 +451,16 @@ span#prj1-name {
  var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
  var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
 }
-@media screen and (max-width: 1050px) {
+#prj1-img {
+    display: flex;
+    padding left: 40%;
+    font-size: 1.5rem;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+@media screen and (max-width: 1200px) {
 	.Main3 {
     min-height: 100vh;
     padding-left: 5vw;
@@ -471,7 +481,10 @@ span#prj1-name {
 }
 @media screen and (max-width: 650px) {
 	#prj1-name{
-		font-size: 2.5rem;
+		font-size: 2rem;
+	}
+	#pj1-descr{
+		font-size: 1rem;
 	}
 }
 .box-right{
