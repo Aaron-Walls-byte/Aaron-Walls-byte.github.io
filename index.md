@@ -154,7 +154,7 @@
 		<div id="prj1-img">
 			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
-				<img src="./assets/images/cc3200.png" alt="Paris">
+				<img src="./assets/images/cc3200.png" height="350px">
 			</div>
 		</div>
 		<div id="prj1-footer">
