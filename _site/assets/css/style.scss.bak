@@ -407,7 +407,7 @@ p.red::-moz-selection {
         width: 42%;
     }
 }
-.Main3 {
+.Main3, .Main4, .Main5 {
   min-height: 100vh;
   padding-left: 5vw;
   padding-right: 5vw;
