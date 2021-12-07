@@ -285,6 +285,8 @@ p.red::-moz-selection { background: var(--accent-color); }
 
 #prj1-name { font-family: "Audiowide", sans-serif; font-size: 3.5rem; transform: skew(-10deg); min-width: fit-content; }
 
+span#pj1-decoration { background-image: linear-gradient(to bottom, var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, var(--fast-bar-2) 20%, var(--fast-bar-2) 40%, var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, var(--fast-bar-4) 60%, var(--fast-bar-4) 80%, var(--fast-bar-5) 80%, var(--fast-bar-5) 100%); width: -webkit-fill-available; height: 5em; }
+
 #pj1-descr { margin-top: 5vw; display: flex; flex-direction: column; align-items: center; font-size: 2rem; font-family: "Audiowide", sans-serif; }
 
 #prj1-content { display: flex; flex-direction: column; align-content: center; align-items: center; font-size: 1.5rem; font-family: Arial; }

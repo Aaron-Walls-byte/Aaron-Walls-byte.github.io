@@ -472,17 +472,18 @@ div#prj1-footer {
     align-content: flex-end;
     flex-wrap: wrap;
     align-items: stretch;
-    background-image: linear-gradient(to bottom, 
-	var(--fast-bar-1) 0%, var(--fast-bar-1) 2%,
-	#FF000000 2%, #FF000000 5%,
-	var(--fast-bar-2) 5%, var(--fast-bar-2) 9%,
-	#FF000000 9%, #FF000000 11%,
-	var(--fast-bar-3) 11%, var(--fast-bar-3) 19%,
-	#FF000000 19%, #FF000000 21%,
-	var(--fast-bar-4) 21%, var(--fast-bar-4) 37%,
-	#FF000000 37%, #FF000000 40%,
-	var(--fast-bar-5) 40%, var(--fast-bar-5) 72%,
-	#FF000000 72%, #FF000000 100%);
+    background-image: linear-gradient(to bottom,
+#FF000000 0%, #FF000000 22%,
+var(--fast-bar-1) 22%, var(--fast-bar-1) 24%,
+#FF000000 24%, #FF000000 27%,
+var(--fast-bar-2) 27%, var(--fast-bar-2) 31%,
+#FF000000 31%, #FF000000 34%,
+var(--fast-bar-3) 34%, var(--fast-bar-3) 42%,
+#FF000000 42%, #FF000000 45%,
+var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
+#FF000000 61%, #FF000000 64%,
+var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
+#FF000000 96%, #FF000000 100%);
 }
 @media screen and (max-width: 1200px) {
 	.Main3 {
