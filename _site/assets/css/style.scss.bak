@@ -492,7 +492,7 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
 }
 @media screen and (max-width: 1200px) {
-	.Main3 .Main4 .Main5{
+	.Main3, .Main4, .Main5{
     min-height: 100vh;
     padding-left: 5vw;
     padding-right: 5vw;
