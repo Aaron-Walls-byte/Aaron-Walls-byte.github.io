@@ -527,7 +527,93 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
     background-size: 34px 34px;
     border: solid 2px;
 }
-
+#pj3-title {
+	padding-top: 1em;
+	padding-bottom: 3em;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+	width: 100%;	
+}
+#prj3-name {
+    font-family: "Audiowide", sans-serif;
+    font-size: 3.5rem;
+	transform: skew(-10deg);
+	min-width: fit-content;
+}
+span#pj3-decoration {
+    background-image: linear-gradient(to bottom,
+ var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+ var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+ var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+ var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+ var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+    width: -webkit-fill-available;
+    height: 5em;
+}
+#pj3-descr {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	font-size: 2rem;
+	font-family: "Audiowide", sans-serif;
+}
+#prj3-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+div#prj3-footer {
+    display: flex;
+    margin-top: 10%;
+    padding-top: 65%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-image: linear-gradient(to bottom,
+#FF000000 0%, #FF000000 22%,
+var(--fast-bar-1) 22%, var(--fast-bar-1) 24%,
+#FF000000 24%, #FF000000 27%,
+var(--fast-bar-2) 27%, var(--fast-bar-2) 31%,
+#FF000000 31%, #FF000000 34%,
+var(--fast-bar-3) 34%, var(--fast-bar-3) 42%,
+#FF000000 42%, #FF000000 45%,
+var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
+#FF000000 61%, #FF000000 64%,
+var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
+#FF000000 96%, #FF000000 100%);
+}
+@media screen and (max-width: 1200px) {
+	.Main5 {
+    min-height: 100vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin: 0;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+	}
+	.box-left{
+		min-height: 90vh;
+	}
+}
+@media screen and (max-width: 650px) {
+	#prj3-name{
+		font-size: 2rem;
+	}
+	#pj3-descr{
+		font-size: 1rem;
+	}
+}
 
 
 
