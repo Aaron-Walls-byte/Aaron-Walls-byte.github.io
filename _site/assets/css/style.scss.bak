@@ -507,6 +507,9 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 		min-height: 90vh;
 		max-width: 100%;
 	}
+	.box-right{
+		maring-left: 2%;
+	}
 }
 @media screen and (max-width: 650px) {
 	#prj1-name{
@@ -517,7 +520,7 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 	}
 }
 .box-right{
-	padding-right: 2%;
+	padding: 2%;
 	min-width: 40%;
 	background-color: #000000;
     opacity: 0.8;
