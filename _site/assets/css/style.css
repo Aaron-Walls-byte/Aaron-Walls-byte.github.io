@@ -161,7 +161,7 @@ a.underline:after { content: ''; position: absolute; width: 100%; transform: sca
 
 .banner { width: 100%; margin-left: auto; margin-right: auto; background-color: var(--jumbo-bg-color); position: relative; z-index: -1; }
 
-.banner.stripes { background-image: url("../images/noise.png"); background-position: center center; background-repeat: repeat; min-height: 80vh; color: var(--jumbo-text-color); }
+.banner.stripes { background-image: url("../images/noise.png"); background-position: center center; background-repeat: repeat; min-height: 80vh; color: var(--jumbo-text-color); min-width: fit-content; }
 
 .right { text-align: right; width: 100%; }
 
@@ -283,7 +283,7 @@ p.red::-moz-selection { background: var(--accent-color); }
 
 #pj1-title { padding-top: 4em; display: inline-flex; flex-direction: row; justify-content: flex-start; align-items: center; }
 
-#prj1-name { font-family: impact; font-size: 3.5rem; transform: skew(-10deg); }
+#prj1-name { font-family: impact; font-size: 3.5rem; transform: skew(-10deg); min-width: fit-content; }
 
 #pj1-decoration { background-color: azure; float: right; width: 15vw; height: 5rem; transform: skew(-10deg); background-image: linear-gradient(to bottom, var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, var(--fast-bar-2) 20%, var(--fast-bar-2) 40%, var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, var(--fast-bar-4) 60%, var(--fast-bar-4) 80%, var(--fast-bar-5) 80%, var(--fast-bar-5) 100%); }
 

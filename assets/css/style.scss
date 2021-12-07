@@ -128,6 +128,7 @@ a.underline:after {
     background-repeat: repeat;
     min-height: 80vh;
 	color: var(--jumbo-text-color);
+	min-width: fit-content;
 }
 
 .right {
@@ -440,6 +441,7 @@ p.red::-moz-selection {
     font-family: impact;
     font-size: 3.5rem;
 	transform: skew(-10deg);
+	min-width: fit-content;
 }
 #pj1-decoration {
     background-color: azure;
