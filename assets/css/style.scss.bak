@@ -446,9 +446,15 @@ p.red::-moz-selection {
 	transform: skew(-10deg);
 	min-width: fit-content;
 }
-
-#prj1-img {
-    
+span#pj1-decoration {
+    background-image: linear-gradient(to bottom,
+ var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+ var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+ var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+ var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+ var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+    width: -webkit-fill-available;
+    height: 5em;
 }
 #pj1-descr {
     margin-top: 5vw;

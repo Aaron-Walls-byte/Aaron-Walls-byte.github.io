@@ -297,6 +297,6 @@ div#prj1-footer { display: flex; margin-top: 10%; padding-top: 65%; flex-directi
 
 @media screen and (max-width: 650px) { #prj1-name { font-size: 2rem; } #pj1-descr { font-size: 1rem; } }
 
-.box-right { padding-right: 2%; min-width: 40%; }
+.box-right { padding-right: 2%; min-width: 40%; background-color: #000000; opacity: 0.8; background-image: linear-gradient(#5c5c5c 1.7px, transparent 1.7px), linear-gradient(to right, #5c5c5c 1.7px, #000000 1.7px); background-size: 34px 34px; border: solid 2px; }
 
 /*# sourceMappingURL=style.css.map */
