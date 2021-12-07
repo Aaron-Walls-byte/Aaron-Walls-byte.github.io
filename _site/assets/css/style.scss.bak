@@ -518,6 +518,11 @@ var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 .box-right{
 	padding-right: 2%;
 	min-width: 40%;
+	background-color: #000000;
+    opacity: 0.8;
+    background-image: linear-gradient(#5c5c5c 1.7000000000000002px, transparent 1.7000000000000002px), linear-gradient(to right, #5c5c5c 1.7000000000000002px, #000000 1.7000000000000002px);
+    background-size: 34px 34px;
+    border: solid 2px;
 }
 
 
