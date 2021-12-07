@@ -491,8 +491,8 @@ var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
 var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
 }
-div#prj1-reverse-title{
-	max-width: fit-content;
+div#prj1-reverse-title {
+	max-width: fit-content !important;
 }
 @media screen and (max-width: 1200px) {
 	.Main3, .Main4, .Main5{
@@ -509,7 +509,7 @@ div#prj1-reverse-title{
 	.box-left{
 		min-height: 90vh;
 		max-width: 100%;
-	}
+	},
 	.box-right{
 		maring-left: 2%;
 	}
