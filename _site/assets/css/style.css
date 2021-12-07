@@ -293,7 +293,7 @@ span#pj1-decoration { background-image: linear-gradient(to bottom, var(--fast-ba
 
 div#prj1-footer { display: flex; margin-top: 10%; padding-top: 65%; flex-direction: row; justify-content: flex-end; align-content: flex-end; flex-wrap: wrap; align-items: stretch; background-image: linear-gradient(to bottom, #FF000000 0%, #FF000000 22%, var(--fast-bar-1) 22%, var(--fast-bar-1) 24%, #FF000000 24%, #FF000000 27%, var(--fast-bar-2) 27%, var(--fast-bar-2) 31%, #FF000000 31%, #FF000000 34%, var(--fast-bar-3) 34%, var(--fast-bar-3) 42%, #FF000000 42%, #FF000000 45%, var(--fast-bar-4) 45%, var(--fast-bar-4) 61%, #FF000000 61%, #FF000000 64%, var(--fast-bar-5) 64%, var(--fast-bar-5) 96%, #FF000000 96%, #FF000000 100%); }
 
-#prj1-reverse-title { max-width: fit-content; }
+div#prj1-reverse-title { max-width: fit-content; }
 
 @media screen and (max-width: 1200px) { .Main3, .Main4, .Main5 { min-height: 100vh; padding-left: 5vw; padding-right: 5vw; margin: 0; display: flex; overflow: hidden; flex-direction: column; flex-wrap: nowrap; justify-content: space-evenly; } .box-left { min-height: 90vh; max-width: 100%; } .box-right { maring-left: 2%; } }
 

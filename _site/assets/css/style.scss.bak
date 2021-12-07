@@ -491,7 +491,6 @@ var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
 var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
 }
-
 #prj1-reverse-title{
 	max-width: fit-content;
 }
