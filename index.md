@@ -240,9 +240,21 @@
 		</div>
 	</div>
 	<div class="box-right">
-		<div id="pj3-reverse-title">
-			<span id="prj3-liner">Databases</span>
-			<span id="pj3-reverse-decoration"></span>
+		<div id="pj1-reverse-title">
+			<div id="pj1-reverse-decoration">
+			The GPIOinterrupt.c is a thermostat application written in C for the TI SimpleLink Wi-Fi CC3220s
+			launch pad designed by Texas Instruments. It is a thermostat designed to display the current temperature,
+			a specific set point, and turn on a red light if the set point is higher than the current temperature.
+			The set point can be manipulated by the user when they press two buttons: one for adjusting the temperature
+			up 1, and one for adjusting the temperature down 1. This program was designed to showcase a state machine.
+			It emphasizes the separation between actions and transitions. 
+				<ul>Features:
+					<li>Well defined states and transitions</li>
+					<li>Handles multiple interrupts with custom callbacks</li>
+					<li>Developed using SEI CERT C Coding Standards</li>
+				
+				</ul>
+			</div>
 		</div>
 		<div id="prj3-explination">
 		</div>
