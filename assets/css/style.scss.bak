@@ -522,6 +522,8 @@ div#pj1-reverse-decoration {
 	}
 	.box-right{
 		margin-left: 2%;
+		min-height: 90vh;
+		max-width: 100%;
 	}
 }
 @media screen and (max-width: 650px) {
