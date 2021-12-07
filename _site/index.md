@@ -146,6 +146,7 @@
 		</div>
 	</div>
 </div>
+
 <div class="Main3">
 	<div class="box-left">
 		<div id="pj1-title">
@@ -176,6 +177,71 @@
 			<span id="prj1-footer-name">Project 1</span>
 		</div>
 	</div>
+</div>
+
+<div class="Main4">
+	<div class="box-right">
+		<div id="pj2-title">
+			<span id="prj2-name">Algorithms and Data Structures</span>
+			<span id="pj2-decoration"></span>
+		</div>
+		<div id="prj2-img">
+			<div id="pj2-descr">
+				<img src="./assets/images/cc3200.png" height="350px">
+			</div>
+		</div>
+		<div id="prj2-footer">
+			<span id="pj2-footer-decoration"></span>
+			<span id="prj2-footer-name">Algorithms and Data Structures</span>
+		</div>
+	</div>
+	<div class="box-left">
+		<div id="pj2-reverse-title">
+			<span id="prj2-liner">Algorithms and Data Structures</span>
+			<span id="pj2-reverse-decoration"></span>
+		</div>
+		<div id="prj2-explination">
+		</div>
+		<div id="prj2-footer">
+			<span id="pj2-footer-decoration"></span>
+			<span id="prj2-footer-name">Algorithms and Data Structures</span>
+		</div>
+	</div>
+</div>
+
+<div class="Main5">
+	<div class="box-left">
+		<div id="pj3-title">
+			<span id="prj3-name">Databases</span>
+			<span id="pj3-decoration"></span>
+		</div>
+		<div id="prj3-img">
+			<div id="pj3-descr">
+				FEATURING Mongo DB and DASH
+				<img src="./assets/images/cc3200.png" height="350px">
+				<p id="prj3-content">Exploring database functions in Python</p>
+			</div>
+		</div>
+		<div id="prj3-footer">
+			<span id="pj3-footer-decoration"></span>
+			<span id="prj3-footer-name">Databases</span>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="pj3-reverse-title">
+			<span id="prj3-liner">Databases</span>
+			<span id="pj3-reverse-decoration"></span>
+		</div>
+		<div id="prj3-explination">
+		</div>
+		<div id="prj3-footer">
+			<span id="pj3-footer-decoration"></span>
+			<span id="prj3-footer-name">Databases</span>
+		</div>
+	</div>
+</div>
+<div class="END">
+
 </div>
 
 
