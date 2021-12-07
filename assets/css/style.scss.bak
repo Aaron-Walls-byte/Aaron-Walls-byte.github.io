@@ -19,7 +19,6 @@
 header{
   display: none;
 }
-
 h2{
 	color: var(--accent-color);
 	text-shadow: 0 0 5px var(--jumbo-text-color);
@@ -107,7 +106,6 @@ a.underline:after {
     text-align: left;
   }
 }
-
 .main {
   height: 85vh;
   overflow: hidden;
@@ -122,7 +120,6 @@ a.underline:after {
   position: relative;
   z-index: -1;
 }
-
 .banner.stripes {
     background-image: url('../images/noise.png');
     background-position: center center;
@@ -131,7 +128,6 @@ a.underline:after {
 	color: var(--jumbo-text-color);
 	
 }
-
 .right {
   text-align: right;
   width: fit-content;
@@ -171,12 +167,10 @@ a.underline:after {
   flex-direction: column;
   width: fit-content;
 }
-
 .stack {
   display: grid;
   grid-template-columns: 1fr;
 }
-
 .stack span {
   font-weight: bold;
   grid-row-start: 1;
@@ -189,10 +183,8 @@ a.underline:after {
   clip-path: inset(var(--clip-top) 0 var(--clip-bottom) 0);
   animation: stack 340ms cubic-bezier(.46,.29,0,1.24) 1 backwards calc(var(--index) * 120ms), glitch 2s ease infinite 2s alternate-reverse;
 }
-
 .stack span:nth-child(odd) { --glitch-translate: 8px; }
 .stack span:nth-child(even) { --glitch-translate: -8px; }
-
 @keyframes stack {
   0% {
     opacity: 0;
@@ -212,7 +204,6 @@ a.underline:after {
     text-shadow: none;
   }
 }
-
 @keyframes glitch {
   0% {
     text-shadow: -2px 3px 0 red, 2px -3px 0 blue;
@@ -231,7 +222,6 @@ a.underline:after {
 	  font-size: 2rem;
   }
 }
-
 .fastBars{
 	display: flex;
 	margin-right: 20%;
@@ -268,8 +258,6 @@ a.underline:after {
 	position: absolute;
   }
 }
-
-
 .Main2 {
   min-height: 100vh;
   display: flex;
@@ -286,7 +274,6 @@ a.underline:after {
 	flex-direction: column;
   }
 }
-
 .content-left{
   padding: 2%;
 }
@@ -304,12 +291,10 @@ p.red::-moz-selection {
 .content-right{
 	padding: 2%;
 }
-
 .skills{
 	min-width: 30vw;
 	padding-bottom: 2%;
 }
-
 .icon{
 	margin-left: 2%;
 }
@@ -606,6 +591,16 @@ var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
 #FF000000 61%, #FF000000 64%,
 var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
 #FF000000 96%, #FF000000 100%);
+}
+div#pj3-reverse-decoration {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	font-size: 1.2rem;
 }
 @media screen and (max-width: 650px) {
 	#prj3-name{
