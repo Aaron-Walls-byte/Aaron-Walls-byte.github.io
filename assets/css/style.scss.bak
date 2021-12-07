@@ -512,7 +512,7 @@ div#prj1-reverse-title {
 	.box-left{
 		min-height: 90vh;
 		max-width: 100%;
-	},
+	}
 	.box-right{
 		maring-left: 2%;
 	}
