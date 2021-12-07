@@ -180,7 +180,7 @@
 </div>
 
 <div class="Main4">
-	<div class="box-right">
+	<div class="box-left">
 		<div id="pj2-title">
 			<span id="prj2-name">Algorithms and Data Structures</span>
 			<span id="pj2-decoration"></span>
@@ -195,7 +195,7 @@
 			<span id="prj2-footer-name">Algorithms and Data Structures</span>
 		</div>
 	</div>
-	<div class="box-left">
+	<div class="box-right">
 		<div id="pj2-reverse-title">
 			<span id="prj2-liner">Algorithms and Data Structures</span>
 			<span id="pj2-reverse-decoration"></span>
