@@ -435,7 +435,8 @@ p.red::-moz-selection {
     display: inline-flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;	
+    align-items: center;
+	width: 100%;	
 }
 #prj1-name {
     font-family: impact;
@@ -448,7 +449,6 @@ p.red::-moz-selection {
     float: right;
     width: -webkit-fill-available;
     height: 5rem;
-    transform: skew(-10deg);
     background-image: linear-gradient(to bottom,
  var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
  var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
