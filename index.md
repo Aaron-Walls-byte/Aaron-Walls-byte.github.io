@@ -257,11 +257,8 @@
 				</ul>
 			</div>
 		</div>
-		</div>
-		<div id="prj3-r-footer">
-		</div>
+		<div id="prj3-r-footer"></div>
 	</div>
-</div>
 <div class="END">
 
 </div>
