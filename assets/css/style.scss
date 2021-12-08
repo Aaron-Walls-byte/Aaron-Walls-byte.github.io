@@ -495,6 +495,32 @@ div#pj1-reverse-decoration {
     align-items: center;
 	font-size: 1.2rem;
 }
+div#pj1-reverse-title {
+    background-color: #0000008f;
+    padding: 2%;
+    /* border: solid; */
+}
+ul.features {
+    padding-top: 5%;
+    line-height: 1.7rem;
+    font-size: 1.7rem;
+    font-family: 'Audiowide', sans-serif;
+}
+ul.features > li {
+    margin-top: 5%;
+    color: var(--nav-text-color);
+    list-style-image: none;
+    font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal, monospace;
+    font-size: 1.2rem;
+}
+.pj1-reverse-header {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 1.7rem;
+    padding-bottom: 4rem;
+}
+
+
+
 @media screen and (max-width: 1500px) {
 	.Main3, .Main4, .Main5{
     min-height: 100vh;
