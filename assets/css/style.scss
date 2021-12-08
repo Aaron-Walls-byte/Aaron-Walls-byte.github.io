@@ -20,6 +20,10 @@ header{
   display: none;
 }
 
+li{
+	list-style-image: none;
+}
+
 h2{
 	color: var(--accent-color);
 	text-shadow: 0 0 5px var(--jumbo-text-color);
