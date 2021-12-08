@@ -200,7 +200,7 @@
 		</div>
 		<div id="prj2-img">
 			<div id="pj2-descr">
-				<img src="./assets/images/cc3200.png" height="350px">
+				<img src="./assets/images/.png" height="350px">
 			</div>
 		</div>
 		<div id="prj2-footer">
@@ -230,8 +230,8 @@
 		</div>
 		<div id="prj3-img">
 			<div id="pj3-descr">
-				FEATURING Mongo DB and DASH
-				<img src="./assets/images/cc3200.png" height="350px">
+				FEATURING Plotly, Mongo DB, and DASH
+				<img src="./assets/images/dbMap.png" height="350px">
 				<p id="prj3-content">Exploring database functions in Python</p>
 			</div>
 		</div>
@@ -246,24 +246,19 @@
 				What's Inside?
 			</div>
 			<div id="pj1-reverse-decoration">
-			The GPIOinterrupt.c is a thermostat application written in C for the TI SimpleLink Wi-Fi CC3220s
-			launch pad designed by Texas Instruments. It is a thermostat designed to display the current temperature,
-			a specific set point, and turn on a red light if the set point is higher than the current temperature.
-			The set point can be manipulated by the user when they press two buttons: one for adjusting the temperature
-			up 1, and one for adjusting the temperature down 1. This program was designed to showcase a state machine.
-			It emphasizes the separation between actions and transitions. 
+			The “Shipwreck Locations” application is a python application that retrieves data from a Mongo 
+			Database. It uses Plotly, Dash, and Mapbox to display where the shipwrecks are according to 
+			the latitude and longitude queried. Users can filter which shipwrecks are displayed by the 
+			“watlev” value contained in the database. 
 				<ul class="features">Features:
-					<li>Well defined states and transitions</li>
-					<li>Handles multiple interrupts with custom callbacks</li>
-					<li>Developed using SEI CERT C Coding Standards</li>
+					<li>Create, Read, Update, and Delete database functions</li>
+					<li>Display geographic data by their location on a map</li>
+					<li>Protected against common SQL injection attacks through parameterization</li>
 				</ul>
 			</div>
 		</div>
-		<div id="prj3-explination">
 		</div>
 		<div id="prj3-r-footer">
-			<span id="pj3-footer-decoration"></span>
-			<span id="prj3-footer-name">Databases</span>
 		</div>
 	</div>
 </div>
