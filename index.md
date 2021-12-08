@@ -256,9 +256,10 @@
 					<li>Protected against common SQL injection attacks through parameterization</li>
 				</ul>
 			</div>
+			<div id="prj3-r-footer"></div>
 		</div>
-		<div id="prj3-r-footer"></div>
 	</div>
+</div>
 <div class="END">
 
 </div>
