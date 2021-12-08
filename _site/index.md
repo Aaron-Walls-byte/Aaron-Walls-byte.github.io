@@ -4,6 +4,7 @@
 
 <div class="topnav" id="myTopnav">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
   <a class="underline" href="#">Software Design</a>
   <a class="underline" href="#">Data Structures and Algorithms</a>
   <a class="underline" href="#">Database Management</a>
@@ -145,35 +146,114 @@
 		</div>
 	</div>
 </div>
+
 <div class="Main3">
 	<div class="box-left">
 		<div id="pj1-title">
-			<span id="prj1-name">State Machines</span>
+			<span id="prj1-name">Software Design</span>
 			<span id="pj1-decoration"></span>
 		</div>
 		<div id="prj1-img">
 			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
 				<img src="./assets/images/cc3200.png" height="350px">
+				<p id="prj1-content">Exploring "Internet of things" development in C</p>
 			</div>
 		</div>
 		<div id="prj1-footer">
 			<span id="pj1-footer-decoration"></span>
-			<span id="prj1-footer-name">Project 1</span>
+			<span id="prj1-footer-name">Software Design</span>
 		</div>
 	</div>
 	<div class="box-right">
 		<div id="pj1-reverse-title">
-			<span id="prj1-liner">Project 1</span>
-			<span id="pj1-reverse-decoration"></span>
+			<div id="pj1-reverse-decoration">
+			The GPIOinterrupt.c is a thermostat application written in C for the TI SimpleLink Wi-Fi CC3220s
+			launch pad designed by Texas Instruments. It is a thermostat designed to display the current temperature,
+			a specific set point, and turn on a red light if the set point is higher than the current temperature.
+			The set point can be manipulated by the user when they press two buttons: one for adjusting the temperature
+			up 1, and one for adjusting the temperature down 1. This program was designed to showcase a state machine.
+			It emphasizes the separation between actions and transitions. 
+				<ul>Features:
+					<li>Well defined states and transitions</li>
+					<li>Handles multiple interrupts with custom callbacks</li>
+					<li>Developed using SEI CERT C Coding Standards</li>
+				
+				</ul>
+			</div>
 		</div>
 		<div id="prj1-explination">
 		</div>
-		<div id="prj1-footer">
+		<div id="prj1-r-footer">
 			<span id="pj1-footer-decoration"></span>
 			<span id="prj1-footer-name">Project 1</span>
 		</div>
 	</div>
+</div>
+
+<div class="Main4">
+	<div class="box-left">
+		<div id="pj2-title">
+			<span id="prj2-name">Algorithms and Data Structures</span>
+			<span id="pj2-decoration"></span>
+		</div>
+		<div id="prj2-img">
+			<div id="pj2-descr">
+				<img src="./assets/images/cc3200.png" height="350px">
+			</div>
+		</div>
+		<div id="prj2-footer">
+			<span id="pj2-footer-decoration"></span>
+			<span id="prj2-footer-name">Algorithms and Data Structures</span>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="pj2-reverse-title">
+			<span id="prj2-liner">Algorithms and Data Structures</span>
+			<span id="pj2-reverse-decoration"></span>
+		</div>
+		<div id="prj2-explination">
+		</div>
+		<div id="prj2-footer">
+			<span id="pj2-footer-decoration"></span>
+			<span id="prj2-footer-name">Algorithms and Data Structures</span>
+		</div>
+	</div>
+</div>
+
+<div class="Main5">
+	<div class="box-left">
+		<div id="pj3-title">
+			<span id="prj3-name">Databases</span>
+			<span id="pj3-decoration"></span>
+		</div>
+		<div id="prj3-img">
+			<div id="pj3-descr">
+				FEATURING Mongo DB and DASH
+				<img src="./assets/images/cc3200.png" height="350px">
+				<p id="prj3-content">Exploring database functions in Python</p>
+			</div>
+		</div>
+		<div id="prj3-footer">
+			<span id="pj3-footer-decoration"></span>
+			<span id="prj3-footer-name">Databases</span>
+		</div>
+	</div>
+	<div class="box-right">
+		<div id="pj3-reverse-title">
+			<span id="prj3-liner">Databases</span>
+			<span id="pj3-reverse-decoration"></span>
+		</div>
+		<div id="prj3-explination">
+		</div>
+		<div id="prj3-r-footer">
+			<span id="pj3-footer-decoration"></span>
+			<span id="prj3-footer-name">Databases</span>
+		</div>
+	</div>
+</div>
+<div class="END">
+
 </div>
 
 
