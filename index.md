@@ -187,8 +187,7 @@
 		<div id="prj1-explination">
 		</div>
 		<div id="prj1-r-footer">
-			<span id="pj1-footer-decoration"></span>
-			<span id="prj1-footer-name">Project 1</span>
+			
 		</div>
 	</div>
 </div>

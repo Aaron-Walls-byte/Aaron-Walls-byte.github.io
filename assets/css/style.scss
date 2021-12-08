@@ -518,7 +518,17 @@ ul.features > li {
     font-size: 1.7rem;
     padding-bottom: 4rem;
 }
-
+#pj1-reversedecoration {
+    background-image: linear-gradient(to bottom,
+ var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+ var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+ var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+ var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+ var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+    height: 11vh;
+    width: -webkit-fill-available;
+    display: block;
+}
 
 
 @media screen and (max-width: 1500px) {
