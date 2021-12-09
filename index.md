@@ -144,6 +144,9 @@
 			</div>
 			<div id="years">1 year</div>
 		</div>
+		<div>
+			<img src="./assets/icons/CompTIA.png" width="50" height="50">
+		</div>
 	</div>
 </div>
 
