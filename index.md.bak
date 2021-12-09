@@ -198,7 +198,7 @@
 <div class="Main4">
 	<div class="box-left">
 		<div id="pj2-title">
-			<span id="prj2-name">Software Design</span>
+			<span id="prj2-name">Algorithms and Data Structures</span>
 			<span id="pj2-decoration"></span>
 		</div>
 		<div id="prj2-img">
