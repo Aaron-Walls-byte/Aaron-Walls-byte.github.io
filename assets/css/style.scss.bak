@@ -401,6 +401,10 @@ p.red::-moz-selection {
         width: 42%;
     }
 }
+img.comptia {
+    display: block;
+    margin: auto;
+}
 .Main3, .Main4, .Main5 {
   min-height: 100vh;
   padding-left: 5vw;
@@ -522,7 +526,6 @@ div#prj1-r-footer {
     width: 65%;
     /* height: 25%; */
 }
-
 ul.features {
     padding-top: 5%;
     line-height: 1.7rem;

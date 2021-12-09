@@ -145,7 +145,7 @@
 			<div id="years">1 year</div>
 		</div>
 		<div>
-			<img src="./assets/images/CompTIA.png" width="50" height="50">
+			<img src="./assets/images/CompTIA.png" class="comptia" width="200" height="200">
 		</div>
 	</div>
 </div>
@@ -260,6 +260,7 @@
 				</ul>
 			</div>
 		</div>
+		<div id="prj3-r-footer"></div>
 	</div>
 </div>
 

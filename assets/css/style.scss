@@ -583,6 +583,111 @@ ul.features > li {
     background-size: 34px 34px;
     border: solid 2px;
 }
+#pj2-title {
+	padding-top: 1em;
+	padding-bottom: 3em;
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+	width: 100%;	
+}
+#prj2-name {
+    font-family: "Audiowide", sans-serif;
+    font-size: 2.7rem;
+	transform: skew(-10deg);
+	min-width: fit-content;
+}
+span#pj2-decoration {
+    background-image: linear-gradient(to bottom,
+ var(--fast-bar-1) 0%, var(--fast-bar-1) 20%, 
+ var(--fast-bar-2) 20%, var(--fast-bar-2) 40%,
+ var(--fast-bar-3) 40%, var(--fast-bar-3) 60%, 
+ var(--fast-bar-4) 60%, var(--fast-bar-4) 80%,
+ var(--fast-bar-5) 80%, var(--fast-bar-5) 100%);
+    width: -webkit-fill-available;
+    height: 5em;
+}
+#pj2-descr {
+    margin-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+	font-size: 1.7em;
+	font-family: "Audiowide", sans-serif;
+}
+#prj2-content {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    font-family: Arial;
+}
+div#prj2-footer {
+    display: flex;
+    padding-top: 65%;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: flex-end;
+    flex-wrap: wrap;
+    align-items: stretch;
+    background-image: linear-gradient(to bottom,
+#FF000000 0%, #FF000000 22%,
+var(--fast-bar-1) 22%, var(--fast-bar-1) 24%,
+#FF000000 24%, #FF000000 27%,
+var(--fast-bar-2) 27%, var(--fast-bar-2) 31%,
+#FF000000 31%, #FF000000 34%,
+var(--fast-bar-3) 34%, var(--fast-bar-3) 42%,
+#FF000000 42%, #FF000000 45%,
+var(--fast-bar-4) 45%, var(--fast-bar-4) 61%,
+#FF000000 61%, #FF000000 64%,
+var(--fast-bar-5) 64%, var(--fast-bar-5) 96%,
+#FF000000 96%, #FF000000 100%);
+}
+div#pj2-reverse-decoration {
+    max-width: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+	font-size: 1.2rem;
+}
+div#pj2-reverse-title {
+    background-color: #0000008f;
+    padding: 2%;
+    /* border: solid; */
+}
+div#prj2-r-footer {
+    display: block;
+    margin: auto;
+    padding-top: 65%;
+    background-image: linear-gradient(to bottom, 
+	#FF000000 0%, #FF000000 3%,var(--fast-bar-1)
+	3%, var(--fast-bar-1) 4%, #ff000000 4%,
+	#ff000000 7%, var(--fast-bar-1) 7%, var(--fast-bar-1) 8%,
+	#ff000000 8%, #ff000000 11%, var(--fast-bar-1) 11%,
+	var(--fast-bar-1) 12%, #FF000000 12%, #FF000000 15%, 
+	var(--fast-bar-1) 15%, var(--fast-bar-1) 16%, #ff000000 16%,
+	#ff000000 19%, var(--fast-bar-1) 19%, var(--fast-bar-1) 
+	20%,#ff000000 20%, #ff000000 22% ,var(--fast-bar-1) 22%, 
+	var(--fast-bar-1) 24%, #FF000000 24%, #FF000000 27%,
+	var(--fast-bar-2) 27%, var(--fast-bar-2) 31%, #FF000000 31%, 
+	#FF000000 34%, var(--fast-bar-3) 34%, var(--fast-bar-3) 42%, 
+	#FF000000 42%, #FF000000 45%, var(--fast-bar-4) 45%, var(--fast-bar-4)
+	61%, #FF000000 61%, #FF000000 64%, var(--fast-bar-5) 64%,
+	var(--fast-bar-5) 96%, #FF000000 96%, #FF000000 100%);
+    border-radius: 100%;
+    width: 65%;
+    /* height: 25%; */
+}
+.pj2-reverse-header {
+    font-family: 'Audiowide', sans-serif;
+    font-size: 1.7rem;
+    padding-bottom: 4rem;
+}
 #pj3-title {
 	padding-top: 1em;
 	padding-bottom: 3em;
