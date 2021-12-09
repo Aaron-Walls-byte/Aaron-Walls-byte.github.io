@@ -5,9 +5,9 @@
 <div class="topnav" id="myTopnav">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
-  <a class="underline" href="#">Software Design</a>
-  <a class="underline" href="#">Data Structures and Algorithms</a>
-  <a class="underline" href="#">Database Management</a>
+  <a class="underline" href="#prj1-title">Software Design</a>
+  <a class="underline" href="#prj2-title">Data Structures and Algorithms</a>
+  <a class="underline" href="#prj3-title">Database Management</a>
   <a class="box" href="#">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars fa-2x"></i>
@@ -145,7 +145,7 @@
 			<div id="years">1 year</div>
 		</div>
 		<div>
-			<img src="./assets/icons/CompTIA.png" width="50" height="50">
+			<img src="./assets/images/CompTIA.png" width="50" height="50">
 		</div>
 	</div>
 </div>
