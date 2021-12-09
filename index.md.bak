@@ -203,9 +203,9 @@
 		</div>
 		<div id="prj2-img">
 			<div id="pj2-descr">
-				FEATURING CC3200 LAUNCH PAD
-				<img src="./assets/images/cc3200.png" height="350px">
-				<p id="prj2-content">Exploring "Internet of things" development in C</p>
+				Linked Lists, Persistance, and Encryption
+				<img src="./assets/images/encryption.png" height="350px">
+				<p id="prj2-content">An exercise in improving legacy code</p>
 			</div>
 		</div>
 		<div id="prj2-footer">
