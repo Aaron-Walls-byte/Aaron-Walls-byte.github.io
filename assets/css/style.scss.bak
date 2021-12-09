@@ -594,7 +594,7 @@ ul.features > li {
 }
 #prj2-name {
     font-family: "Audiowide", sans-serif;
-    font-size: 2.7rem;
+    font-size: 1.7rem;
 	transform: skew(-10deg);
 	min-width: fit-content;
 }

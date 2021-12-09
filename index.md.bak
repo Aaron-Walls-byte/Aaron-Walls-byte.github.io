@@ -210,7 +210,7 @@
 		</div>
 		<div id="prj2-footer">
 			<span id="pj2-footer-decoration"></span>
-			<span id="prj2-footer-name">Software Design</span>
+			<span id="prj2-footer-name">Algorithms and Data Structures</span>
 		</div>
 	</div>
 	<div class="box-right">
@@ -219,16 +219,18 @@
 				What's Inside?
 			</div>
 			<div id="pj2-reverse-decoration">
-			The GPIOinterrupt.c is a thermostat application written in C for the TI SimpleLink Wi-Fi CC3220s
-			launch pad designed by Texas Instruments. It is a thermostat designed to display the current temperature,
-			a specific set point, and turn on a red light if the set point is higher than the current temperature.
-			The set point can be manipulated by the user when they press two buttons: one for adjusting the temperature
-			up 1, and one for adjusting the temperature down 1. This program was designed to showcase a state machine.
-			It emphasizes the separation between actions and transitions. 
+			The login application was created from a simple account management console application that
+			was reverse-engineered from binary. The objective was to identify and mitigate the security 
+			vulnerabilities that existed within the application. The application was enhanced from its 
+			original format so that it no longer contained global variables containing critical information
+			(like passwords/account information). Instead, the application reads and writes from encrypted
+			files so data is persistent. It uses OpenSSL SHA-256 encryption to encrypt files and saves the 
+			password as a salted hash to ensure security. This exercise demonstrates a working knowledge of
+			industry standard security methods.
 				<ul class="features">Features:
-					<li>Well defined states and transitions</li>
-					<li>Handles multiple interrupts with custom callbacks</li>
-					<li>Developed using SEI CERT C Coding Standards</li>
+					<li>Open SSL SHA 256 and XOR encryption algorithms</li>
+					<li>Data persistence using custom files</li>
+					<li>DData management using linked lists</li>
 				</ul>
 			</div>
 		</div>

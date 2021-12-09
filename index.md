@@ -281,7 +281,7 @@
 	</div>
 </div>
 
-<div class="END">
+<div id="contact">
 
 </div>
 
