@@ -8,7 +8,7 @@
   <a class="underline" href="#prj1-name">Software Design</a>
   <a class="underline" href="#prj2-name">Data Structures and Algorithms</a>
   <a class="underline" href="#prj3-name">Database Management</a>
-  <a class="box" href="#">Contact</a>
+  <a class="box" href="#contact">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars fa-2x"></i>
   </a>
