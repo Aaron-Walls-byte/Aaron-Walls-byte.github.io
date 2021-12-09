@@ -195,7 +195,7 @@
 	</div>
 </div>
 
-<div class="Main3">
+<div class="Main4">
 	<div class="box-left">
 		<div id="pj2-title">
 			<span id="prj2-name">Software Design</span>
