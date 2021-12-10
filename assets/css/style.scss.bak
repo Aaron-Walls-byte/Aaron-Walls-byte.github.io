@@ -797,6 +797,9 @@ div#prj3-r-footer {
     margin-top: 5vh;
     margin-bottom: 5vh;
     background-color: var(--jumbo-bg-color);
+	background-image: url('../images/noise.png');
+    background-position: center center;
+    background-repeat: repeat;
 }
 
 

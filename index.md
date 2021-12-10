@@ -282,7 +282,8 @@
 </div>
 
 <div id="contact">
-
+    <div>Contact Me At:</div>
+    <div>wallsaaron174@gmail.com</div>
 </div>
 
 
