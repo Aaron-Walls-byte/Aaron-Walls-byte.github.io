@@ -165,7 +165,7 @@
 		</div>
 		<div id="prj1-footer">
 			<span id="pj1-footer-decoration"></span>
-			<span id="prj1-footer-name">Software Design</span>
+			<a href="https://github.com/Aaron-Walls-byte/Software_Design_Project" id="prj1-footer-name">visit me on Github</a>
 		</div>
 	</div>
 	<div class="box-right">
@@ -210,7 +210,7 @@
 		</div>
 		<div id="prj2-footer">
 			<span id="pj2-footer-decoration"></span>
-			<span id="prj2-footer-name">Algorithms and Data Structures</span>
+			<a href="https://github.com/Aaron-Walls-byte/Algorithms_and_Data_Structures_Project" id="prj1-footer-name">visit me on Github</a>
 		</div>
 	</div>
 	<div class="box-right">
@@ -257,7 +257,7 @@
 		</div>
 		<div id="prj3-footer">
 			<span id="pj3-footer-decoration"></span>
-			<span id="prj3-footer-name">Databases</span>
+			<a href="https://github.com/Aaron-Walls-byte/Databases_Project" id="prj1-footer-name">visit me on Github</a>
 		</div>
 	</div>
 	<div class="box-right">

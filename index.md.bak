@@ -8,7 +8,7 @@
   <a class="underline" href="#prj1-name">Software Design</a>
   <a class="underline" href="#prj2-name">Data Structures and Algorithms</a>
   <a class="underline" href="#prj3-name">Database Management</a>
-  <a class="box" href="#">Contact</a>
+  <a class="box" href="#contact">Contact</a>
   <a href="javascript:void(0);" class="icon" onclick="myFunction()">
     <i class="fa fa-bars fa-2x"></i>
   </a>
@@ -165,7 +165,7 @@
 		</div>
 		<div id="prj1-footer">
 			<span id="pj1-footer-decoration"></span>
-			<span id="prj1-footer-name">Software Design</span>
+			<a href="https://github.com/Aaron-Walls-byte/Software_Design_Project" id="prj1-footer-name">Software Design</a>
 		</div>
 	</div>
 	<div class="box-right">
