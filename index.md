@@ -29,7 +29,7 @@
 					<span style="--index: 1;">Cyber Security Analyst</span>
 					<span style="--index: 2;">Cyber Security Analyst</span>
 				</div>
-				<span class="right">Updated on December 2, 2021</span>
+				<span class="right">Updated on December 10th, 2021</span>
 			</div>
 			<div class="fastBars">	
 			</div>
