@@ -159,7 +159,7 @@
 		<div id="prj1-img">
 			<div id="pj1-descr">
 				FEATURING CC3200 LAUNCH PAD
-				<img src="./assets/images/cc3200.png" height="350px">
+				<img src="./assets/images/cc3200.png" height="300px">
 				<p id="prj1-content">Exploring "Internet of things" development in C</p>
 			</div>
 		</div>
