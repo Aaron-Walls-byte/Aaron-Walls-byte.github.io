@@ -15,6 +15,9 @@
 	--fast-bar-5: #BB3242;
 	--accent-color: #bd426d;
 }
+*::selection {
+    background: var(--accent-color);
+}
 
 header{
   display: none;
